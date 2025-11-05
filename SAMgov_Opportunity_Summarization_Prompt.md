@@ -3,7 +3,7 @@
 ## Purpose
 You are summarizing a **SAM.gov contract opportunity** for potential bidders.  
 You will receive:
-- Opportunity **metadata** (fields such as title, agency, type, set-aside, NAICS, etc.)  
+- Opportunity **metadata** (fields such as title, agency, type, set-aside, etc.)  
 - One or more **document summaries** previously generated from attachments related to this opportunity  
 
 Your task is to generate:
@@ -22,7 +22,6 @@ Metadata fields you may receive (some may be empty):
 - Contract Opportunity Type  
 - Set Aside  
 - Product Service Code (PSC)  
-- NAICS Code  
 - Place of Performance  
 - Description  
 - Contact Information (Primary and Alternative POC)  
@@ -75,10 +74,6 @@ The **Department of the Navy** plans to award a *Firm Fixed-Price IDIQ* contract
 ### Evaluation
 Award will follow a *Lowest Price Technically Acceptable (LPTA)* process focusing on technical experience, safety, and past performance.
 
-### Agency & Contacts
-- **Agency:** Department of the Navy – NAVFAC Mid-Atlantic  
-- **Primary Contact:** Rebecca Spaulding (rebecca.j.spaulding.civ@us.navy.mil)
-
 ### Additional Notes
 RFP release expected November 17, 2025, with a site visit schedule to follow."
 }
@@ -108,10 +103,6 @@ The **Department of Veterans Affairs (VA)** is conducting market research to ide
 ### Evaluation
 Responses will be used to determine potential small business participation and overall capability of industry vendors.
 
-### Agency & Contacts
-- **Agency:** Department of Veterans Affairs – VISN 5  
-- **Primary Contact:** Contracting Officer (email: [provided in source])
-
 ### Additional Notes
 This notice is for planning purposes only and does not guarantee a solicitation."
 }
@@ -139,11 +130,7 @@ The **U.S. Air Force** has awarded **Delta Facility Solutions, Inc.** a *Firm Fi
 
 ### Evaluation
 Awarded through a competitive solicitation with four proposals received.  
-Selection based on best value considering technical capability, management plan, and price.
-
-### Agency & Contacts
-- **Agency:** U.S. Air Force – 82d Contracting Squadron  
-- **Primary Contact:** Contracting Officer (email: [provided in source])"
+Selection based on best value considering technical capability, management plan, and price."
 }
 ```
 
@@ -164,10 +151,6 @@ Selection based on best value considering technical capability, management plan,
 ### Contract & Timeline
 - **Response Due:** December 1, 2025  
 - **Published:** October 29, 2025  
-
-### Agency & Contacts
-- **Agency:** Department of Homeland Security  
-- **Primary Contact:** Contracting Officer (email: [provided in source])
 
 ### Additional Notes
 All other terms remain unchanged. Offerors must acknowledge receipt of this amendment in proposals."
@@ -192,11 +175,7 @@ Prototype and demonstrate next-generation customer service technologies leveragi
 - **Availability Ends:** November 4, 2026  
 
 ### Evaluation
-Merit-based evaluation under *Other Transaction Authority (OTA)*. Successful prototypes may lead to production contracts.
-
-### Agency & Contacts
-- **Agency:** Defense Health Agency  
-- **Primary Contacts:** Gabriela Hurte, Sonya Edom"
+Merit-based evaluation under *Other Transaction Authority (OTA)*. Successful prototypes may lead to production contracts."
 }
 ```
 
@@ -228,10 +207,10 @@ Before finalizing, verify:
 - ✅ Each summary stays within word limits  
 - ✅ Set-aside is included when applicable  
 - ✅ Markdown headers are used in full summaries for readability  
-- ✅ No “Detected Opportunity Type” or extra text outside JSON  
+- ✅ No “Detected Opportunity Type,” “Agency & Contacts,” or NAICS section  
 - ✅ Text uses markdown-style highlights (bold/italics) inside values  
 - ✅ Output is ready for automated parsing by GovBeacon ingestion scripts  
 
 ---
 
-*This version of the prompt restores markdown headers for readability and includes multiple example formats while maintaining structured JSON output for programmatic parsing.*
+*This version of the prompt removes agency contact and NAICS sections while preserving structured JSON output, markdown formatting, and complete examples for automated ingestion.*

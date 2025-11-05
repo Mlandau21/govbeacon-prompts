@@ -209,6 +209,7 @@ def _split_long_short(response: str) -> tuple[str, str]:
     2. Markdown format: with "### Short Summary" header
     """
     import json
+    import re
     
     # Try JSON format first - look for JSON block with both keys
     try:
@@ -234,14 +235,50 @@ def _split_long_short(response: str) -> tuple[str, str]:
                     depth -= 1
                     if depth == 0:
                         json_str = cleaned[start_idx:i+1]
-                        data = json.loads(json_str)
-                        if "full_summary" in data and "short_summary" in data:
-                            # JSON.loads automatically converts \n to actual newlines
-                            full = data["full_summary"].strip()
-                            short = data["short_summary"].strip()
-                            return full, short
+                        
+                        # Try to fix common JSON escape issues before parsing
+                        # Fix invalid escape sequences like \\$ (should just be $)
+                        # In JSON, only these escapes are valid: \" \\ \/ \b \f \n \r \t \uXXXX
+                        # Anything else like \$ should just be the character
+                        # We'll fix \\ followed by non-valid-escape chars to just the char
+                        fixed_json = re.sub(r'\\([^"\\/bfnrtu])', r'\1', json_str)
+                        
+                        try:
+                            data = json.loads(fixed_json)
+                            if "full_summary" in data and "short_summary" in data:
+                                # JSON.loads automatically converts \n to actual newlines
+                                full = data["full_summary"].strip()
+                                short = data["short_summary"].strip()
+                                return full, short
+                        except json.JSONDecodeError as e:
+                            # If still fails, try a more aggressive fix
+                            # Replace all invalid escape sequences (but preserve valid ones)
+                            # This is a last resort
+                            LOGGER.debug("JSON parse failed after initial fix: %s", e)
+                            try:
+                                # More aggressive: fix \\n, \\$, etc. to \n, $, etc.
+                                # But we need to be careful not to break valid escapes
+                                aggressive_fix = json_str
+                                # Fix double-escaped newlines and other common cases
+                                aggressive_fix = aggressive_fix.replace('\\\\n', '\\n')
+                                aggressive_fix = aggressive_fix.replace('\\\\$', '$')
+                                aggressive_fix = aggressive_fix.replace('\\\\@', '@')
+                                aggressive_fix = aggressive_fix.replace('\\\\#', '#')
+                                # Then fix any remaining invalid escapes
+                                aggressive_fix = re.sub(r'\\([^"\\/bfnrtu])', r'\1', aggressive_fix)
+                                
+                                data = json.loads(aggressive_fix)
+                                if "full_summary" in data and "short_summary" in data:
+                                    full = data["full_summary"].strip()
+                                    short = data["short_summary"].strip()
+                                    return full, short
+                            except (json.JSONDecodeError, Exception):
+                                # Last resort: try to extract manually (may not work for complex cases)
+                                LOGGER.warning("All JSON parsing attempts failed, falling back to markdown format")
+                                pass
                         break
-    except (json.JSONDecodeError, ValueError, KeyError):
+    except (json.JSONDecodeError, ValueError, KeyError) as e:
+        LOGGER.debug("JSON parsing failed: %s", e)
         pass
     
     # Fall back to markdown format
