@@ -200,8 +200,51 @@ def _build_opportunity_prompt(opportunity: OpportunityData) -> str:
 
 
 def _split_long_short(response: str) -> tuple[str, str]:
-    # Match "Short Summary" with optional bold/formatting, followed by optional text on same line, then newlines
-    # This captures headers like "### **Short Summary (≤130 words)**" or "**Short Summary:**"
+    """Extract full and short summaries from response.
+    
+    Supports two formats:
+    1. JSON format: {"full_summary": "...", "short_summary": "..."}
+       - May be wrapped in ```json code blocks
+       - Newlines are escaped as \n in JSON
+    2. Markdown format: with "### Short Summary" header
+    """
+    import json
+    
+    # Try JSON format first - look for JSON block with both keys
+    try:
+        # Strip markdown code block markers if present
+        cleaned = response.strip()
+        if cleaned.startswith('```json'):
+            cleaned = cleaned[7:]  # Remove ```json
+        elif cleaned.startswith('```'):
+            cleaned = cleaned[3:]  # Remove ```
+        if cleaned.endswith('```'):
+            cleaned = cleaned[:-3]  # Remove closing ```
+        cleaned = cleaned.strip()
+        
+        # Find the start of JSON object
+        start_idx = cleaned.find('{')
+        if start_idx != -1:
+            # Find matching closing brace
+            depth = 0
+            for i in range(start_idx, len(cleaned)):
+                if cleaned[i] == '{':
+                    depth += 1
+                elif cleaned[i] == '}':
+                    depth -= 1
+                    if depth == 0:
+                        json_str = cleaned[start_idx:i+1]
+                        data = json.loads(json_str)
+                        if "full_summary" in data and "short_summary" in data:
+                            # JSON.loads automatically converts \n to actual newlines
+                            full = data["full_summary"].strip()
+                            short = data["short_summary"].strip()
+                            return full, short
+                        break
+    except (json.JSONDecodeError, ValueError, KeyError):
+        pass
+    
+    # Fall back to markdown format
     pattern = re.compile(r"#+\s*\*{0,2}Short Summary[^\n]*\*{0,2}\s*\n+", re.IGNORECASE)
     match = pattern.search(response)
     if not match:

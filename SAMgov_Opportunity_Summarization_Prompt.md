@@ -7,8 +7,8 @@ You will receive:
 - One or more **document summaries** previously generated from attachments related to this opportunity  
 
 Your task is to generate:
-1. A **Full Summary** (≤500 words) — structured, factual, and easy to scan with narrative flow.  
-2. A **Short Summary** (≤130 words) — a complete, readable overview with purpose, context, and key action details, formatted for fast scanning.
+1. A **Full Summary** (≤500 words) — structured, factual, and easy to scan with narrative flow, wrapped in JSON tags.  
+2. A **Short Summary** (≤130 words) — a concise, narrative overview with context, set-aside details, and action items, also wrapped in JSON tags.
 
 The summaries should read like a professional BD/capture briefing: **what the opportunity is, who it’s for, why it matters, and how to respond**, without speculation or filler.
 
@@ -38,152 +38,200 @@ Metadata fields you may receive (some may be empty):
 1. Use both metadata and document summaries.  
 2. Never invent or assume details that aren’t explicitly provided.  
 3. Write clearly and professionally, using short paragraphs and bullet lists.  
-4. Choose tone and structure based on the **Opportunity Type**.  
-5. Use markdown-style headers (`###`) and **bold highlights** for readability.  
-6. Keep total word count ≤500 for the full version, ≤130 for the short version.  
-7. If data fields are empty, omit that section naturally.  
-8. Always include the **set-aside designation** (if provided) in both the long and short summaries.  
-9. Prioritize information that helps a **potential bidder quickly decide if the opportunity is relevant**.
+4. Use **bold** and **markdown formatting** (e.g., `###`) for readability inside JSON values.  
+5. Keep total word count ≤500 for the full version, ≤130 for the short version.  
+6. Always include the **set-aside designation** (if provided).  
+7. The final output must be valid **JSON** containing only two keys: `"full_summary"` and `"short_summary"`.  
+8. Do **not** include “Detected Opportunity Type” or any extra text outside JSON.  
 
 ---
 
-## Step 1 – Detect Opportunity Type
+## Step 1 – Full Summary Format (≤500 Words)
 
-Determine the general opportunity type and adapt your summary format accordingly:
+The **Full Summary** should include markdown-style section headers for readability, while remaining inside a JSON value.  
+Each summary should cover: purpose, scope, contract details, set-aside, evaluation factors, and deadlines.
 
-| Type | Description | Typical Focus |
-|------|--------------|----------------|
-| **Solicitation / RFP / RFQ** | Active request for bids or proposals | Requirements, submission details, set-aside |
-| **Sources Sought / RFI** | Market research or capability request | Purpose, response instructions, vendor qualifications |
-| **Award Notice** | Contract award announcement | Awardee, value, contract number, scope |
-| **Presolicitation** | Advance notice of a future solicitation | Intent, anticipated timeline, general scope |
-| **Amendment / Modification** | Updates to an existing notice | Summary of changes, extended deadlines, added files |
-| **Other** | Not clearly defined | Summarize core information neutrally |
+Wrap the text inside a JSON block under `"full_summary"` as shown below.
 
----
+### **Example 1 – Solicitation / RFP**
 
-## Step 2 – Full Summary Format (≤500 Words)
+```json
+{
+  "full_summary": "### Quick Summary
+The **Department of the Navy** plans to award a *Firm Fixed-Price IDIQ* contract for **Elevator Maintenance and Repair** at **Naval Submarine Base New London, CT**. This effort ensures operational reliability and compliance for all vertical transport systems. **Proposals are due December 15, 2025.**
 
-### **Detected Opportunity Type:** [Type]
+### Scope of Work
+- Inspect, service, and repair elevators, escalators, and lifts  
+- Provide all required labor, tools, and replacement parts  
+- Maintain 24/7 emergency response capability  
 
-### **Quick Summary**
-Begin with a 2–3 sentence overview combining **agency, goal, contract type, and key dates**.  
-Example:  
-The **Department of Energy** seeks qualified **small businesses** to provide **IT Helpdesk Support Services** at **Oak Ridge National Laboratory** under a *Firm Fixed-Price* contract. The effort aims to improve 24/7 user support and cybersecurity compliance. **Proposals are due December 10, 2025.**
+### Contract & Timeline
+- **Type:** Firm Fixed-Price (IDIQ)  
+- **Duration:** One base year + four option years  
+- **Set-Aside:** Total Small Business  
+- **Response Due:** December 15, 2025  
+- **Published:** October 31, 2025  
 
----
+### Evaluation
+Award will follow a *Lowest Price Technically Acceptable (LPTA)* process focusing on technical experience, safety, and past performance.
 
-### **Scope of Work**
-Summarize main deliverables and objectives.  
-Use action-oriented bullets:  
-- Provide Tier 1 and Tier 2 technical support for DOE systems  
-- Maintain helpdesk ticketing and reporting systems  
-- Ensure NIST SP 800-171 cybersecurity compliance  
-- Offer on-site assistance as required in Oak Ridge, TN  
+### Agency & Contacts
+- **Agency:** Department of the Navy – NAVFAC Mid-Atlantic  
+- **Primary Contact:** Rebecca Spaulding (rebecca.j.spaulding.civ@us.navy.mil)
 
----
-
-### **Contract & Timeline**
-- **Type:** [Contract Type]  
-- **Duration:** [Base + Option Years]  
-- **Estimated Value:** [If stated]  
-- **Response Due:** **[Response Date]**  
-- **Published:** **[Published Date]**  
+### Additional Notes
+RFP release expected November 17, 2025, with a site visit schedule to follow."
+}
+```
 
 ---
 
-### **Eligibility & Set-Aside**
-Note business classification (e.g., *Total Small Business*, *8(a)*, *SDVOSB*).  
-Include relevant NAICS and PSC codes.
+### **Example 2 – Sources Sought / RFI**
+
+```json
+{
+  "full_summary": "### Quick Summary
+The **Department of Veterans Affairs (VA)** is conducting market research to identify qualified firms capable of providing **Custodial and Sanitation Services** for VA facilities in **Maryland, DC, and Virginia**. **Responses are due November 15, 2025.**
+
+### Scope of Work
+- Routine and deep cleaning of hospital and administrative areas  
+- Infection control and medical waste disposal  
+- Floor maintenance and regional coordination across VISN 5 facilities  
+
+### Contract & Timeline
+- **Type:** Sources Sought / Market Research  
+- **Duration:** One-year anticipated requirement  
+- **Set-Aside:** None specified (market research stage)  
+- **Response Due:** November 15, 2025  
+- **Published:** October 28, 2025  
+
+### Evaluation
+Responses will be used to determine potential small business participation and overall capability of industry vendors.
+
+### Agency & Contacts
+- **Agency:** Department of Veterans Affairs – VISN 5  
+- **Primary Contact:** Contracting Officer (email: [provided in source])
+
+### Additional Notes
+This notice is for planning purposes only and does not guarantee a solicitation."
+}
+```
 
 ---
 
-### **Evaluation Factors**
-List evaluation priorities or award criteria if available.  
-Example: *Technical capability, past performance, and price reasonableness.*
+### **Example 3 – Award Notice**
+
+```json
+{
+  "full_summary": "### Quick Summary
+The **U.S. Air Force** has awarded **Delta Facility Solutions, Inc.** a *Firm Fixed-Price* contract for **Base Maintenance Support Services** at **Sheppard Air Force Base, TX** valued at **$24.8M**.
+
+### Scope of Work
+- Provide maintenance, custodial, HVAC, and equipment repair services  
+- Support daily base operations and readiness initiatives  
+
+### Contract & Timeline
+- **Type:** Firm Fixed-Price (FFP)  
+- **Duration:** One base + four option years  
+- **Value:** $24,800,000  
+- **Set-Aside:** Total Small Business  
+- **Award Date:** October 15, 2025  
+
+### Evaluation
+Awarded through a competitive solicitation with four proposals received.  
+Selection based on best value considering technical capability, management plan, and price.
+
+### Agency & Contacts
+- **Agency:** U.S. Air Force – 82d Contracting Squadron  
+- **Primary Contact:** Contracting Officer (email: [provided in source])"
+}
+```
 
 ---
 
-### **Agency & Contacts**
-- **Agency:** [Department / Sub-tier / Office]  
-- **Primary Contact:** [Name, Email]  
-- **Alternate Contact:** [Name, Email]
+### **Example 4 – Amendment / Modification**
+
+```json
+{
+  "full_summary": "### Quick Summary
+**Amendment 2** to the **DHS Network Security Operations Support** solicitation updates submission details and extends the proposal deadline to **December 1, 2025.**
+
+### Scope of Change
+- Extends due date from November 20 → December 1, 2025  
+- Adds Attachment J-4: Updated Labor Category Descriptions  
+- Clarifies subcontractor experience requirements  
+
+### Contract & Timeline
+- **Response Due:** December 1, 2025  
+- **Published:** October 29, 2025  
+
+### Agency & Contacts
+- **Agency:** Department of Homeland Security  
+- **Primary Contact:** Contracting Officer (email: [provided in source])
+
+### Additional Notes
+All other terms remain unchanged. Offerors must acknowledge receipt of this amendment in proposals."
+}
+```
 
 ---
 
-### **Additional Notes**
-Highlight any important clarifications, Q&A summaries, or amendment changes.  
-Example: *Amendment 2 extends the due date to December 1 and adds Attachment J-4.*
+### **Example 5 – CSO / Prototype**
+
+```json
+{
+  "full_summary": "### Quick Summary
+The **Defense Health Agency (DHA)** has issued a *Commercial Solutions Opening (CSO)* titled **'Customer Care Prototyping 2025–2026'** under *10 U.S.C. § 4022*. This initiative seeks innovative vendors to develop a **Customer Care Foundational Platform** for the **Military Health System (MHS)** using automation and AI. **General availability ends November 4, 2026.**
+
+### Scope of Work
+Prototype and demonstrate next-generation customer service technologies leveraging self-service and data analytics.
+
+### Contract & Timeline
+- **Type:** OTA-based CSO  
+- **Set-Aside:** None (open competition)  
+- **Availability Ends:** November 4, 2026  
+
+### Evaluation
+Merit-based evaluation under *Other Transaction Authority (OTA)*. Successful prototypes may lead to production contracts.
+
+### Agency & Contacts
+- **Agency:** Defense Health Agency  
+- **Primary Contacts:** Gabriela Hurte, Sonya Edom"
+}
+```
 
 ---
 
-## Step 3 – Short Summary Format (≤130 Words)
+## Step 2 – Short Summary Format (≤130 Words)
 
-Produce a **Short Summary (≤130 words)** that delivers both **clarity and context** — readable at a glance, but complete enough to understand the opportunity’s purpose, evaluation, and action points.
+Wrap the short summary in a JSON block under `"short_summary"`.  
+Ensure it includes **purpose, set-aside, context, and call-to-action** with line breaks for readability.
 
-The summary must include **three sections** (use line breaks between them):
+### **Example (Solicitation)**
 
-1. **Core Facts** – Agency, opportunity name/type, and purpose (what is being sought or procured).  
-2. **Context** – Scope or evaluation criteria, contract type, or potential follow-on opportunities.  
-3. **Call-to-Action** – Key date(s) and contact or next step.
+```json
+{
+  "short_summary": "The **Department of the Navy / NAVFAC** is soliciting proposals for **Elevator Maintenance and Repair Services** at **Naval Submarine Base New London, CT** under a *Firm Fixed-Price IDIQ* contract.  
 
-**Formatting Guidelines:**
-- Use **bold** for agencies, dates, and key entities.  
-- Use *italics* for contract or authority types.  
-- Always include the **set-aside designation** if it exists (e.g., *Total Small Business Set-Aside*, *8(a)*, *SDVOSB*).  
-- Separate sentences or ideas with **line breaks** (not dense paragraphs).  
-- Maintain natural, flowing tone — readable in <15 seconds.  
-- Never omit the “why it matters” or “what happens next” line if available.  
+This **Total Small Business Set-Aside** covers inspection, service, and emergency maintenance for elevators and lifts. Evaluation follows a *Lowest Price Technically Acceptable* process emphasizing experience and safety performance.  
 
----
-
-### **Example 1 – Solicitation (with Set-Aside)**
-
-**Short Summary (≤130 words):**  
-
-The **Department of the Navy / NAVFAC** is soliciting proposals for **Elevator Maintenance and Repair Services** at the **Naval Submarine Base New London, CT** under a *Firm Fixed-Price IDIQ* contract.  
-
-This **Total Small Business Set-Aside** covers inspection, service, and emergency maintenance for all base elevators, escalators, and lifts. Evaluation will follow a *Lowest Price Technically Acceptable* process emphasizing experience and safety performance.  
-
-**Proposals due:** December 15, 2025. Contact **Rebecca Spaulding (rebecca.j.spaulding.civ@us.navy.mil)** for details.  
+**Proposals due:** December 15, 2025. Contact **Rebecca Spaulding (rebecca.j.spaulding.civ@us.navy.mil)**."
+}
+```
 
 ---
 
-### **Example 2 – CSO / Prototype (Improved)**
-
-**Short Summary (≤130 words):**  
-
-The **Defense Health Agency (DHA)** has released a *Commercial Solutions Opening (CSO)* titled **“Customer Care Prototyping 2025–2026.”**  
-
-Vendors are invited to develop a **Customer Care Foundational Platform** for the **Military Health System**, leveraging automation, self-service, and AI. Evaluations are **merit-based** under *10 U.S.C. § 4022* with potential **follow-on production contracts** for successful prototypes.  
-
-**General availability ends:** November 4, 2026. Contact **Gabriela Hurte** or **Sonya Edom** for details.  
-
----
-
-### **Example 3 – Small Business Solicitation (with Set-Aside)**
-
-**Short Summary (≤130 words):**  
-
-The **U.S. Army Corps of Engineers – Alaska District** seeks **small business** vendors for **Equipment Mechanic Services** at the **Chena River Lakes Flood Control Project**, North Pole, AK.  
-
-This *Total Small Business Set-Aside* covers annual maintenance and repair of heavy equipment, vehicles, and cranes under a *Time & Materials RFQ* estimated at **$80,000/year**. Proposals will be evaluated for technical capability and local staffing qualifications.  
-
-**Proposals due:** November 10, 2025, 10:00 AM AKST. Contact **Travis Tofi (travis.tofi@usace.army.mil)**.  
-
----
-
-## Step 5 – Quality Checklist
+## Step 3 – Quality Checklist
 
 Before finalizing, verify:
-- ✅ All facts come from provided metadata or document summaries  
-- ✅ Full summary ≤500 words, short ≤130 words  
-- ✅ **Set-aside** is included whenever applicable  
-- ✅ Short summary includes core facts, context, and call-to-action  
-- ✅ Uses narrative tone with scannable structure  
-- ✅ Bold and headers improve quick reading  
-- ✅ No missing or invented information  
+- ✅ Output is valid JSON with keys: `full_summary` and `short_summary`  
+- ✅ Each summary stays within word limits  
+- ✅ Set-aside is included when applicable  
+- ✅ Markdown headers are used in full summaries for readability  
+- ✅ No “Detected Opportunity Type” or extra text outside JSON  
+- ✅ Text uses markdown-style highlights (bold/italics) inside values  
+- ✅ Output is ready for automated parsing by GovBeacon ingestion scripts  
 
 ---
 
-*This version of the prompt is optimized for GovBeacon (BuildBid) to ensure every summary highlights set-aside eligibility while maintaining clarity, completeness, and scannability across all SAM.gov opportunity types.*
+*This version of the prompt restores markdown headers for readability and includes multiple example formats while maintaining structured JSON output for programmatic parsing.*
