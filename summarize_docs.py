@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import io
+import json
 import logging
 import re
 import mimetypes
@@ -266,7 +267,7 @@ def _summarize_single_attachment(
             error=f"gemini_error: {exc}",
         )
 
-    detected_type = _parse_detected_doc_type(summary_text)
+    summary_markdown, detected_type = _parse_summary_response(summary_text)
     return DocumentSummary(
         sam_url=task.sam_url,
         opportunity_id=task.opportunity_id,
@@ -274,7 +275,7 @@ def _summarize_single_attachment(
         filetype=filetype,
         local_path=str(task.relative_path),
         detected_doc_type=detected_type,
-        summary=summary_text,
+        summary=summary_markdown,
         model=settings.model,
         run_id=run_id,
     )
@@ -339,7 +340,90 @@ def _build_final_prompt(*, task: AttachmentTask, content: str, used_chunking: bo
     )
 
 
-def _parse_detected_doc_type(summary: str) -> str:
+def _parse_summary_response(response: str) -> tuple[str, str]:
+    """Parse summary response and extract markdown content and document type.
+    
+    Supports two formats:
+    1. JSON format: {"document_summary": "..."} (may be wrapped in ```json code blocks)
+    2. Legacy plain text format: "Detected Document Type: ..."
+    
+    Returns:
+        tuple: (summary_markdown, detected_doc_type)
+    """
+    response = response.strip()
+    
+    # Try JSON format first
+    try:
+        # Strip markdown code block markers if present
+        cleaned = response
+        if cleaned.startswith('```json'):
+            cleaned = cleaned[7:]  # Remove ```json
+        elif cleaned.startswith('```'):
+            cleaned = cleaned[3:]  # Remove ```
+        if cleaned.endswith('```'):
+            cleaned = cleaned[:-3]  # Remove closing ```
+        cleaned = cleaned.strip()
+        
+        # Find the start of JSON object
+        start_idx = cleaned.find('{')
+        if start_idx != -1:
+            # Find matching closing brace
+            depth = 0
+            end_idx = start_idx
+            for i in range(start_idx, len(cleaned)):
+                if cleaned[i] == '{':
+                    depth += 1
+                elif cleaned[i] == '}':
+                    depth -= 1
+                    if depth == 0:
+                        end_idx = i + 1
+                        break
+            
+            json_str = cleaned[start_idx:end_idx]
+            data = json.loads(json_str)
+            
+            if "document_summary" in data:
+                summary_markdown = data["document_summary"].strip()
+                # Extract document type from markdown (look for "### Document Type" header)
+                doc_type = _extract_doc_type_from_markdown(summary_markdown)
+                return summary_markdown, doc_type
+    except (json.JSONDecodeError, ValueError, KeyError) as e:
+        LOGGER.debug("JSON parsing failed, falling back to legacy format: %s", e)
+        pass
+    
+    # Fall back to legacy plain text format
+    detected_type = _parse_detected_doc_type_legacy(response)
+    return response, detected_type
+
+
+def _extract_doc_type_from_markdown(markdown: str) -> str:
+    """Extract document type from markdown content.
+    
+    Looks for "### Document Type" header followed by the type on the next line.
+    """
+    # Pattern to match "### Document Type" followed by the type on same or next line
+    pattern = re.compile(r"###\s*Document Type\s*\n\s*(.+?)(?:\n|$)", re.IGNORECASE | re.MULTILINE)
+    match = pattern.search(markdown)
+    if match:
+        doc_type = match.group(1).strip()
+        # Clean up markdown formatting
+        doc_type = re.sub(r"\*+", "", doc_type)
+        doc_type = re.sub(r"^#+\s*", "", doc_type)
+        return doc_type
+    
+    # Fallback: look for just "Document Type:" pattern
+    pattern2 = re.compile(r"Document Type[:\s]+\s*(.+?)(?:\n|$)", re.IGNORECASE | re.MULTILINE)
+    match2 = pattern2.search(markdown)
+    if match2:
+        doc_type = match2.group(1).strip()
+        doc_type = re.sub(r"\*+", "", doc_type)
+        return doc_type
+    
+    return ""
+
+
+def _parse_detected_doc_type_legacy(summary: str) -> str:
+    """Parse document type from legacy format: "Detected Document Type: ..." """
     pattern = re.compile(r"Detected Document Type:\s*(.+)")
     match = pattern.search(summary)
     if not match:
@@ -407,7 +491,7 @@ def _summarize_with_file_upload(
             error=error_msg,
         )
 
-    detected_type = _parse_detected_doc_type(summary_text)
+    summary_markdown, detected_type = _parse_summary_response(summary_text)
     return DocumentSummary(
         sam_url=task.sam_url,
         opportunity_id=task.opportunity_id,
@@ -415,7 +499,7 @@ def _summarize_with_file_upload(
         filetype=filetype,
         local_path=str(task.relative_path),
         detected_doc_type=detected_type,
-        summary=summary_text,
+        summary=summary_markdown,
         model=settings.model,
         run_id=run_id,
     )

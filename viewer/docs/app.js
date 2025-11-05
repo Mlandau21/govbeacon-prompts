@@ -165,51 +165,198 @@ class DocumentSummaryViewer {
 
             const summary = document.createElement('div');
             summary.className = 'document-summary';
-            summary.innerHTML = this._parseMarkdown(doc.summary || 'No summary available.');
+            const summaryText = this._extractSummaryText(doc.summary || 'No summary available.');
+            summary.innerHTML = this._parseMarkdown(summaryText);
             card.appendChild(summary);
 
             this.documentsContainer.appendChild(card);
         });
     }
 
+    _extractSummaryText(text) {
+        // Handle JSON format if present (backward compatibility / edge cases)
+        if (!text) return '';
+        
+        try {
+            // Check if it looks like JSON
+            const trimmed = text.trim();
+            if (trimmed.startsWith('{') || trimmed.startsWith('```json') || trimmed.startsWith('```')) {
+                // Try to parse as JSON
+                let cleaned = trimmed;
+                if (cleaned.startsWith('```json')) {
+                    cleaned = cleaned.slice(7);
+                } else if (cleaned.startsWith('```')) {
+                    cleaned = cleaned.slice(3);
+                }
+                if (cleaned.endsWith('```')) {
+                    cleaned = cleaned.slice(0, -3);
+                }
+                cleaned = cleaned.trim();
+                
+                const startIdx = cleaned.indexOf('{');
+                if (startIdx !== -1) {
+                    // Find matching closing brace
+                    let depth = 0;
+                    let endIdx = startIdx;
+                    for (let i = startIdx; i < cleaned.length; i++) {
+                        if (cleaned[i] === '{') depth++;
+                        else if (cleaned[i] === '}') {
+                            depth--;
+                            if (depth === 0) {
+                                endIdx = i + 1;
+                                break;
+                            }
+                        }
+                    }
+                    
+                    const jsonStr = cleaned.substring(startIdx, endIdx);
+                    const data = JSON.parse(jsonStr);
+                    if (data.document_summary) {
+                        return data.document_summary;
+                    }
+                }
+            }
+        } catch (e) {
+            // Not JSON or parse failed, return as-is
+        }
+        
+        return text;
+    }
+
     _parseMarkdown(text) {
         if (!text) return '';
         
+        // Step 1: Escape HTML first to prevent XSS
         let html = text
-            // Escape HTML first to prevent XSS
             .replace(/&/g, '&amp;')
             .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            
-            // Headers (must come before bold)
-            .replace(/^### (.*$)/gm, '<h3>$1</h3>')
-            .replace(/^## (.*$)/gm, '<h2>$1</h2>')
-            .replace(/^# (.*$)/gm, '<h1>$1</h1>')
-            
-            // Bold
+            .replace(/>/g, '&gt;');
+        
+        // Step 2: Process headers (must come before bold to avoid conflicts)
+        html = html
+            .replace(/^#### (.*)$/gm, '<h4>$1</h4>')
+            .replace(/^### (.*)$/gm, '<h3>$1</h3>')
+            .replace(/^## (.*)$/gm, '<h2>$1</h2>')
+            .replace(/^# (.*)$/gm, '<h1>$1</h1>');
+        
+        // Step 3: Process lists FIRST (before inline formatting to avoid conflicts with list markers)
+        // Extract list items, process their content for formatting, then restore as HTML lists
+        const listPlaceholders = [];
+        let placeholderIndex = 0;
+        
+        // Helper function to process inline formatting on content
+        const processInlineFormatting = (text) => {
+            return text
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*([^*\s]+[^*]*[^*\s]+)\*/g, '<em>$1</em>') // Only match *text* with actual content
+                .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+        };
+        
+        // Replace unordered list items with placeholders (process content first)
+        html = html.replace(/^(\s*)([\*\-])\s+(.+)$/gm, (match, indent, marker, content) => {
+            const placeholder = `__LIST_ITEM_${placeholderIndex}__`;
+            const formattedContent = processInlineFormatting(content);
+            listPlaceholders[placeholderIndex] = { type: 'ul', content: formattedContent, indent };
+            placeholderIndex++;
+            return `${indent}${placeholder}`;
+        });
+        
+        // Replace ordered list items with placeholders (process content first)
+        html = html.replace(/^(\s*)(\d+)\.\s+(.+)$/gm, (match, indent, number, content) => {
+            const placeholder = `__LIST_ITEM_${placeholderIndex}__`;
+            const formattedContent = processInlineFormatting(content);
+            listPlaceholders[placeholderIndex] = { type: 'ol', content: formattedContent, indent, number };
+            placeholderIndex++;
+            return `${indent}${placeholder}`;
+        });
+        
+        // Step 4: Process inline formatting on remaining text (non-list content)
+        html = html
             .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+            .replace(/\*([^*\s]+[^*]*[^*\s]+)\*/g, '<em>$1</em>') // Only match *text* with actual content, not just spaces
+        
+        // Step 5: Process links on remaining text
+        html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+        
+        // Step 6: Restore list items and process lists
+        const lines = html.split('\n');
+        const processedLines = [];
+        let inUnorderedList = false;
+        let inOrderedList = false;
+        
+        for (let i = 0; i < lines.length; i++) {
+            let line = lines[i];
             
-            // Italic
-            .replace(/\*(.+?)\*/g, '<em>$1</em>')
-            
-            // Links
-            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
-            
-            // Unordered lists
-            .replace(/^\- (.+)$/gm, '<li>$1</li>')
-            
-            // Wrap consecutive <li> in <ul>
-            .replace(/(<li>.*<\/li>\n?)+/g, (match) => `<ul>${match}</ul>`)
-            
-            // Line breaks (convert double newlines to paragraphs)
-            .split('\n\n')
-            .map(para => {
-                if (para.startsWith('<h') || para.startsWith('<ul>') || para.startsWith('<ol>')) {
-                    return para;
+            // Check for list item placeholders
+            const placeholderMatch = line.match(/^(\s*)__LIST_ITEM_(\d+)__$/);
+            if (placeholderMatch) {
+                const placeholder = listPlaceholders[parseInt(placeholderMatch[2])];
+                if (!placeholder) {
+                    processedLines.push(line);
+                    continue;
                 }
-                return para.trim() ? `<p>${para.replace(/\n/g, '<br>')}</p>` : '';
-            })
-            .join('\n');
+                
+                if (placeholder.type === 'ul') {
+                    if (!inUnorderedList) {
+                        if (inOrderedList) {
+                            processedLines.push('</ol>');
+                            inOrderedList = false;
+                        }
+                        processedLines.push('<ul>');
+                        inUnorderedList = true;
+                    }
+                    processedLines.push(`<li>${placeholder.content}</li>`);
+                } else if (placeholder.type === 'ol') {
+                    if (!inOrderedList) {
+                        if (inUnorderedList) {
+                            processedLines.push('</ul>');
+                            inUnorderedList = false;
+                        }
+                        processedLines.push('<ol>');
+                        inOrderedList = true;
+                    }
+                    processedLines.push(`<li>${placeholder.content}</li>`);
+                }
+                continue;
+            }
+            
+            // Not a list item - close any open lists
+            if (inUnorderedList) {
+                processedLines.push('</ul>');
+                inUnorderedList = false;
+            }
+            if (inOrderedList) {
+                processedLines.push('</ol>');
+                inOrderedList = false;
+            }
+            
+            processedLines.push(line);
+        }
+        
+        // Close any remaining open lists
+        if (inUnorderedList) processedLines.push('</ul>');
+        if (inOrderedList) processedLines.push('</ol>');
+        
+        html = processedLines.join('\n');
+        
+        // Step 7: Process paragraphs (split on double newlines)
+        const paragraphs = html.split(/\n\n+/);
+        html = paragraphs.map(para => {
+            para = para.trim();
+            if (!para) return '';
+            
+            // If already has block-level HTML tags, don't wrap in <p>
+            if (para.match(/^<(h[1-6]|ul|ol|li|p|div|blockquote|pre)/)) {
+                // Convert single newlines to <br> within block elements (but not in lists)
+                if (!para.match(/^<(ul|ol)/)) {
+                    return para.replace(/\n/g, '<br>');
+                }
+                return para;
+            }
+            
+            // Regular paragraph: convert single newlines to <br> and wrap in <p>
+            return `<p>${para.replace(/\n/g, '<br>')}</p>`;
+        }).join('\n');
         
         return html;
     }

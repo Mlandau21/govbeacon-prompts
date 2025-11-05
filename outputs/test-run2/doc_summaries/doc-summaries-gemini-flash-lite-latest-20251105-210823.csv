@@ -1,0 +1,40 @@
+sam-url,opportunity_id,filename,filetype,local_path,detected_doc_type,summary,model,run_id
+https://sam.gov/workspace/contract/opp/0202c6a52eba42dc8ce29e9958c2a2b1/view,0202c6a52eba42dc8ce29e9958c2a2b1,HT0038-25-S-C002 - Notice of Availability - Customer Care_ 04NOV25.docx,docx,0202c6a52eba42dc8ce29e9958c2a2b1/HT0038-25-S-C002 - Notice of Availability - Customer Care_ 04NOV25.docx,Notice of Availability (NoA) / Commercial Solutions Opening (CSO),"### Document Type
+Notice of Availability (NoA) / Commercial Solutions Opening (CSO)
+
+### Purpose & Overview
+This Notice of Availability (NoA) announces a Commercial Solutions Opening (CSO) by the Defense Health Agency (DHA) PEO DHMS to award Other Transaction Agreements (OTAs) under 10 U.S.C. § 4022 for prototype projects related to **Customer Care Prototyping 2025-2026**.
+
+### Prototype Project Scope
+The goal is to rapidly and incrementally establish a **Customer Care Foundational Platform** using prototypes and experiments, moving away from traditional, high-cost change management practices. Prototype projects may include proof of concept, agile development, pilot applications of commercial tech, or demonstration of operational utility.
+
+### Fundamental Prototype Questions
+The CSO seeks solutions to address issues where technology velocity outpaces user adoption, specifically questioning:
+*   Targeting the right industry partners.
+*   Customer definition and focus.
+*   Reducing Government civilian bottlenecks.
+*   Improving instrumentation beyond ticket counting.
+*   Reducing dependence on legacy ITSM mentalities.
+*   Maximizing self-service paradigms.
+*   Adopting payment models based on insights/successes.
+
+### Areas of Interest
+Key areas include proactive service management (replacing traditional ITSM), embedding customer experience via design principles, utilizing insight-driven approaches, emerging neural technologies (ML, GenAI), and adopting RevOps principles in a non-revenue organization.
+
+### Goals
+Primary goals are to reduce onboarding delays, significantly reduce dependency on human touch and expenses, reverse low customer sentiment, and allow customer care insights to inform product design.
+
+### Process & Submission
+*   **Process:** The CSO uses a phased approach organized into **Seasons**, each with unified timelines (Prospecting, Assessing, Kickstarting, Episodes).
+*   **Season Notices:** Specific rules, Areas of Interest (AOI), evaluation criteria, and deadlines will be detailed in subsequent **Season Notices** attached to the main posting.
+*   **Eligibility:** Submissions must demonstrate **Advancement** (improvement over status quo), **Learning** (testing a hypothesis), **Adjusting** (mechanisms for real-time change), and **Solutions** (specific, measurable outcomes, not just labor hours).
+*   **Follow-on:** Successful prototypes may lead to follow-on production agreements under 10 U.S.C. § 4022(f).
+
+### Key Terms for Bidders
+*   Awards are **not** subject to the Competition in Contracting Act or FAR/DFARS.
+*   Bidders must cooperate with other contractors (teaming agreements may be required).
+*   Security clearances, HIPAA compliance (for PII/PHI), and potential restrictions (e.g., no foreign nationals) are likely requirements.
+*   The Government will **not** pay for costs associated with preparing materials for merit determination.
+
+### Contact
+Gabriela Y. Hurte (gabriela.y.hurte.civ@health.mil)",gemini-flash-lite-latest,20251105-210821
