@@ -24,6 +24,9 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Playwright
+.playwright/
+
 # Outputs (optional - uncomment if you don't want to track outputs)
 # outputs/
 
