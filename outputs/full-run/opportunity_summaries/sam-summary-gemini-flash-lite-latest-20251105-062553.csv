@@ -1,0 +1,554 @@
+sam-url,govbeacon-long-summary,govbeacon-short-summary,model,run_id
+https://sam.gov/workspace/contract/opp/0202c6a52eba42dc8ce29e9958c2a2b1/view,"## SAM.gov Opportunity Summarization
+
+### **Detected Opportunity Type:** Solicitation / RFP / RFQ (Commercial Solutions Opening - CSO)
+
+### **Full Summary** (≤500 words)
+
+### **Detected Opportunity Type:** Solicitation / RFP / RFQ (Commercial Solutions Opening - CSO)
+
+### **Quick Summary**
+The **Defense Health Agency (DHA)** has issued a **Notice of Availability (NoA)** for a **Commercial Solutions Opening (CSO)** under the authority of **10 U.S.C. § 4022** to solicit prototype projects for the **Customer Care Prototyping 2025-2026** effort. The DHA seeks innovative solutions to rapidly develop and enhance Customer Care activities for the Military Health System (MHS), aiming to replace high-touch, expensive legacy practices with modern, self-service capabilities. **Proposals are accepted through November 4, 2026**, though specific deadlines will be set by subsequent **Season Notices**.
+
+---
+
+### **Scope of Work**
+This CSO focuses on developing a **Customer Care Foundational Platform** by addressing fundamental prototype questions related to industry partnership, customer definition, and instrumentation. The goal is to maximize user self-service and reduce reliance on legacy IT Service Management (ITSM) ticketing systems.
+
+Key areas of interest include:
+*   Proactive, multi-discipline service management.
+*   Embedding customer experience through design principles.
+*   Leveraging emerging neural technologies (ML, GenAI).
+*   Creating a Customer Care ""Operating System.""
+
+**Mandatory Submission Criteria (for Merit):**
+Solutions must demonstrate **Advancement** (improvement over the status quo), **Learning** (addressing a hypothesis objectively), **Adjusting** (mechanisms for real-time adjustment), and providing **Solutions** (specific, measurable outcomes).
+
+---
+
+### **Contract & Timeline**
+- **Type:** Other Transaction Agreements (OTAs) for prototype projects under 10 U.S.C. § 4022.
+- **Follow-on Potential:** Successful prototypes may lead to a follow-on production agreement or contract under 10 U.S.C. § 4022(f).
+- **Response Due:** **November 4, 2026** (General Availability). Specific deadlines will be announced via Season Notices.
+- **Published:** **November 4, 2025**
+
+---
+
+### **Eligibility & Set-Aside**
+- **Authority:** This CSO utilizes competitive procedures under 10 U.S.C. § 4022(b)(2).
+- **Set-Aside:** **No specific set-aside is mentioned;** responses are generally open to all interested parties unless restricted by a future Season Notice.
+- **NAICS:** 541512 (Computer Systems Design Services)
+- **PSC:** DD01
+
+---
+
+### **Evaluation Factors**
+Evaluation will be based solely on **merit** through a four-phase process: Prospecting, Assessing, Kickstarting, and Episodes (award). The Government suggests flexible pricing models that reward insights and successes over simple labor hours.
+
+---
+
+### **Agency & Contacts**
+- **Agency:** DEPT OF DEFENSE / Defense Health Agency (DHA), PEO – Defense Healthcare Management Systems (DHMS).
+- **Primary Contact:** **Gabriela Hurte** (gabriela.y.hurte.civ@health.mil)
+- **Alternate Contact:** **Sonya Edom** (sonya.m.edom.civ@health.mil)
+
+---
+
+### **Additional Notes**
+The Government will not pay for costs associated with preparing materials to determine merit or awardability. Teaming is encouraged, as the Government may share non-trade-secret submission information with other prospective partners.
+
+---","The **Defense Health Agency (DHA)** has released a *Commercial Solutions Opening (CSO)* titled **“Customer Care Prototyping 2025-2026”** under the authority of **10 U.S.C. § 4022**.
+
+The goal is to rapidly develop prototypes for a **Customer Care Foundational Platform** for the Military Health System, focusing on self-service and modernizing high-touch practices. Evaluation is **merit-based**, and successful projects may lead to follow-on production contracts. **No specific set-aside** is currently designated.
+
+**General availability ends:** **November 4, 2026**. Contact **Gabriela Hurte** or **Sonya Edom** for details on subsequent Season Notices.",gemini-flash-lite-latest,20251105-062540
+https://sam.gov/workspace/contract/opp/05f299e871dc4822a797387ff9d1c1d2/view,"## SAM.gov Opportunity Summarization
+
+### **Detected Opportunity Type:** Sources Sought / RFI
+
+### **Full Summary (≤500 words)**
+
+### **Quick Summary**
+The **U.S. Army Contracting Command-Rock Island (ACC-RI)** is conducting a **Sources Sought Notice** to identify potential sources capable of providing **Instrument Calibration and Preventative Maintenance Services/Repair** for four specific Tinius Olsen testing machines at the **Rock Island Arsenal (RIA-JMTC) Materials Science Lab** in Illinois. This is a market research effort only, **not a solicitation**, intended to inform the final acquisition strategy for a future requirement. **Capability statements are due by 12:00 P.M. CST on November 11, 2025.**
+
+---
+
+### **Scope of Work**
+The required services cover a one-year period of performance for four specific Tinius Olsen machines located at Bldg. 210, Rock Island, IL:
+*   Two Charpy Impact Testers (Ser. Nos. 164955 and 127945).
+*   Two Hardness Testers (Ser. Nos. FH10001800275 and FH1102140100).
+
+**Key Tasks and Performance Standards:**
+*   Provide one annual, scheduled, on-site visit for **Calibration and Preventive Maintenance (PM)**.
+*   All calibration and repair work must be performed by **factory-certified representatives**.
+*   Contractor must be **accredited in ISO/IEC 17025 or equivalent** ISO standards.
+*   Provide **unlimited phone support** (2-hour response during business hours).
+*   Provide **unlimited emergency on-site support** (response on-site within 2 business days), including all parts, time, and travel costs.
+*   Submit a Service Report within 7 business days of completion.
+
+**Security and IT Requirements:**
+Technicians must comply with RIA-JMTC OPSEC requirements, including AT Level I Training and background checks for installation access. Vendor devices are prohibited from connecting to the RIA-JMTC network, and software must be loaded via CD/DVD.
+
+---
+
+### **Contract & Timeline**
+- **Type:** Market Research (Sources Sought)
+- **Duration:** One Year (Anticipated)
+- **Response Due:** **November 11, 2025, 12:00 P.M. CST**
+- **Published:** November 4, 2025
+
+---
+
+### **Eligibility & Set-Aside**
+This is a **Sources Sought Notice**; no set-aside designation is applicable at this stage.
+- **NAICS Code:** 334519 (Other Measuring and Controlling Devices Manufacturing)
+- **PSC Code:** J049 (Repair/Refurbishment of Measuring and Controlling Instruments)
+
+---
+
+### **Evaluation Factors (for Capability Statement)**
+Vendors must address the following in their capability statement to demonstrate ability to meet the draft SOW requirements:
+*   Vendor’s Size Standard, DUNS Number, EUI, and Cage Code.
+*   ISO/IEC 17025 accreditation status.
+*   Confirmation of factory-certified personnel for performance.
+*   Commitment to provide unlimited phone and emergency on-site support.
+
+---
+
+### **Agency & Contacts**
+- **Agency:** DEPT OF DEFENSE / DEPT OF THE ARMY / W6QK ACC-RI
+- **Primary Contact:** **Angel Traman** (angel.j.traman.civ@army.mil)
+
+---
+
+### **Additional Notes**
+This notice is strictly for planning purposes. The Government does not intend to award a contract based on the information solicited. Invoicing for any future award will require use of iRAPT (WAWF) and Contractor Manpower Reporting (CMR) via cmra.army.mil.
+
+---","The **U.S. Army ACC-RI** seeks market information via this **Sources Sought Notice** for **Calibration, PM, and Repair Services** on four **Tinius Olsen testing machines** at the **Rock Island Arsenal (RIA-JMTC)**.
+
+This is **not a solicitation**. Vendors must confirm **ISO/IEC 17025 accreditation**, use **factory-certified reps**, and guarantee **unlimited emergency on-site support within 2 business days**. NAICS is **334519**.
+
+**Capability statements are due:** **November 11, 2025, 12:00 P.M. CST** via email to **Angel Traman (angel.j.traman.civ@army.mil)** to influence the final acquisition strategy.",gemini-flash-lite-latest,20251105-062540
+https://sam.gov/workspace/contract/opp/14d673d87bb34ae6898156af76a69032/view,"## SAM.gov Opportunity Summary
+
+### **Detected Opportunity Type:** Solicitation / RFQ
+
+### **Full Summary (≤500 words)**
+
+### **Quick Summary**
+The **Defense Logistics Agency (DLA) Land and Maritime** is issuing a Request for Quotation (RFQ) for the procurement of **VALVE, CHECK** (NSN 4820013943327). This is an active solicitation seeking quotes from all responsible sources. The required delivery timeframe is **77 days After Delivery Order (ADO)**. **Quotes must be submitted electronically** by the response deadline.
+
+---
+
+### **Scope of Work**
+This procurement focuses on a single line item requirement for a specific component:
+
+*   **Item:** VALVE, CHECK
+*   **NSN:** 4820013943327
+*   **Quantity:** 15 Each (EA)
+*   **Delivery Location:** W1A8 DLA DISTRIBUTION
+*   **Delivery Schedule:** 77 Days ADO
+
+---
+
+### **Contract & Timeline**
+- **Type:** Request for Quotation (RFQ)
+- **Duration:** Not specified (per line item delivery requirement)
+- **Estimated Value:** Not stated
+- **Response Due:** **November 17, 2025**
+- **Published:** **November 4, 2025**
+
+---
+
+### **Eligibility & Set-Aside**
+The solicitation explicitly states that **all responsible sources may submit a quote**. No specific set-aside designation (e.g., Small Business, 8(a)) was provided in the metadata.
+
+*   **NAICS Code:** 332911 (Industrial Valve Manufacturing)
+*   **PSC Code:** 48 (Valves and Cocks)
+
+---
+
+### **Agency & Contacts**
+- **Agency:** DEPT OF DEFENSE / DEFENSE LOGISTICS AGENCY (DLA LAND AND MARITIME)
+- **Primary Contact:** DibbsBSM@dla.mil (General inquiries regarding the solicitation process)
+- **Note:** Specific questions regarding the solicitation should be emailed to the buyer listed in **Block 5 of the solicitation document**. If the provided link fails, vendors must use the DIBBS website to locate the solicitation number.
+
+---
+
+### **Additional Notes**
+Hard copies of the solicitation are **not available**. Vendors must retrieve the solicitation electronically. Digitized drawings and Military Specifications and Standards are available for retrieval or ordering electronically.
+
+---","The **Defense Logistics Agency (DLA) Land and Maritime** is issuing an *RFQ* for **VALVE, CHECK** (NSN 4820013943327). This is an open solicitation for **15 Each**, requiring delivery within 77 days ADO to DLA Distribution.
+
+The NAICS code is **332911**. All responsible sources are encouraged to submit electronic quotes.
+
+**Response Due:** **November 17, 2025**. Contact **DibbsBSM@dla.mil** or the buyer in Block 5 of the solicitation document for specific questions. Hard copies are unavailable; quotes must be submitted electronically.",gemini-flash-lite-latest,20251105-062540
+https://sam.gov/workspace/contract/opp/2e1d76f5e7e347a298c4f1b1636af4a6/view,"## SAM.gov Opportunity Summarization Output
+
+### **Full Summary** (≤500 words)
+
+### **Detected Opportunity Type:** Solicitation / RFP / RFQ (Request for Lease Proposal - RFLP)
+
+### **Quick Summary**
+The **Department of the Air Force (DAF)** is issuing a **Request for Lease Proposal (RFLP)** to solicit private commercial development of **Artificial Intelligence (AI) Data Centers** on underutilized parcels across five active military installations. This effort is driven by recent Executive Orders aimed at accelerating AI infrastructure. Proposals must meet stringent size requirements: **greater than 100 megawatts (MW) of new load** and **at least \$500M in capital expenditures**. The DAF seeks monetary consideration (cash rent) that is not less than the Fair Market Value (FMV) for the leasehold interest. **Proposals are due no later than 5:00 PM Central Time on November 14, 2025.**
+
+---
+
+### **Scope of Work**
+Offerors are invited to lease parcels at one or more of the following Installations for the sole purpose of developing and operating qualifying AI Data Centers:
+*   Arnold Air Force Base (AFB), TN
+*   Davis-Monthan AFB, AZ
+*   Edwards AFB, CA
+*   Joint Base McGuire-Dix-Lakehurst (JBMDL), NJ
+*   Robins AFB, GA
+
+**Key Project Requirements:**
+*   **Scale:** Must meet the $>100$ MW load and $\geq \$500$ Million capital expenditure threshold.
+*   **Consideration:** Lease consideration must be paid entirely in **cash**; in-kind consideration is not requested.
+*   **Power:** Modular power configurations are acceptable. If onsite power generation is included, the DAF requires the **first right of refusal** to purchase that power.
+*   **Due Diligence:** Offerors are responsible for all costs associated with securing utilities, performing NEPA compliance (EA or EIS), and completing an Environmental Baseline Survey (EBS).
+*   **Transaction Costs:** The Lessee must pay the Government's direct transaction costs, estimated not to exceed **\$250,000.00**, in cash at lease execution.
+
+---
+
+### **Contract & Timeline**
+- **Type:** Long-term Ground Lease Agreement (under 10 U.S.C. § 2667).
+- **Duration:** Maximum 50 years, subject to negotiation.
+- **NAICS:** 531190 (Lessors of Other Real Estate Property)
+- **PSC:** X1QA
+- **Response Due:** **November 14, 2025**
+- **Published:** November 4, 2025
+
+---
+
+### **Eligibility & Set-Aside**
+This RFLP is open to all qualified entities interested in leasing federal property for commercial development. **No specific small business set-aside designation was identified** in the provided metadata or summaries. Offerors must demonstrate significant financial strength and experience, including evidence of developing at least three completed AI data center projects (>100 MW contracted power) in the last three years.
+
+---
+
+### **Evaluation Factors**
+Proposals will be selected on a **Best Value** basis, evaluated in two phases. The four primary factors are weighted as follows (Factors 1 & 2 are equally important and more important than Factors 3 & 4):
+1.  **Project Description** (Market/Feasibility & Development/Management Plan)
+2.  **Return to Government** (Rental Consideration & Financial Pro Forma)
+3.  **Organization/Experience/Capability**
+4.  **Integrated Project Plan/Schedule**
+
+---
+
+### **Agency & Contacts**
+- **Agency:** DEPT OF DEFENSE / DEPT OF THE AIR FORCE / AFCEC
+- **Primary Contact:** David Mairs | david.mairs@us.af.mil | 361-290-3400
+
+---
+
+### **Additional Notes**
+The narrative portion of the proposal is strictly limited to **40 total pages**. Offerors must submit an Intent to Submit within 10 days of release. Q&A submissions must adhere to the deadline specified in the RFLP.
+
+---","The **Department of the Air Force (DAF)** seeks proposals for leasing federal land to develop **Artificial Intelligence (AI) Data Centers** at five installations (including **Arnold AFB, TN, and JBMDL, NJ**).
+
+This is a **Request for Lease Proposal (RFLP)** requiring projects to exceed **100 MW** load and **\$500M** in capital expenditures, per recent Executive Orders. The DAF seeks **cash consideration** (rent) not less than Fair Market Value. **No specific set-aside designation was provided.**
+
+Evaluation is **Best Value**, prioritizing Project Description and Return to Government. Offerors must demonstrate experience with large-scale data centers.
+
+**Proposals due:** **November 14, 2025**, 5:00 PM CT. Contact **David Mairs (david.mairs@us.af.mil)** for RFLP documents and data room access.",gemini-flash-lite-latest,20251105-062540
+https://sam.gov/workspace/contract/opp/5e99a5f40bc34380a59a482440ecd087/view,"## SAM.gov Opportunity Summary
+
+### **Detected Opportunity Type:** Presolicitation Notice
+
+### **Full Summary (≤500 words)**
+
+### **Quick Summary**
+The **Department of the Navy (NAVFAC)** has issued a **Pre-Solicitation Notice** for **Elevator Maintenance and Repair Services** at the **Naval Submarine Base New London, Groton, CT**. The anticipated contract will be an **Unrestricted**, Firm Fixed Price (FFP) Indefinite Delivery Indefinite Quantity (IDIQ) contract, acquired using commercial procedures under FAR Part 12. The solicitation is expected to be available on or about **November 17, 2025**, with proposals due on or about **December 15, 2025**.
+
+---
+
+### **Scope of Work**
+The contractor will provide all necessary labor, supervision, management, tools, materials, and incidental engineering required to perform elevator maintenance and repairs at the Naval Submarine Base New London and supported outlying areas.
+
+*   **Contract Structure:** The contract includes a **12-month base period** (which offers a minimum guarantee) plus **four 12-month option periods**.
+*   **Work Type:** The effort includes both Recurring Work and Non-Recurring Work Items, detailed across 18 annexes in the Performance Work Statement (PWS).
+*   **Acquisition Method:** The Navy is utilizing a **Performance-Based Service Acquisition (PBSA)** approach, focusing on measurable performance outcomes.
+*   **Site Visit:** A Pre-Proposal Conference or Site Visit is scheduled for on or about **November 25, 2025**. Offerors are strongly urged to inspect the site.
+
+---
+
+### **Contract & Timeline**
+- **Type:** Firm Fixed Price (FFP) Indefinite Delivery Indefinite Quantity (IDIQ)
+- **Procurement Method:** Contracting by Negotiation
+- **Duration:** Base period (12 months) + Four 12-month options.
+- **Solicitation Availability:** **On or about November 17, 2025**
+- **Proposal Due Date:** **On or about December 15, 2025**
+- **Site Visit/Conference:** **On or about November 25, 2025**
+- **Published:** November 4, 2025
+
+---
+
+### **Eligibility & Set-Aside**
+- **Set-Aside Status:** **Unrestricted**
+- **NAICS Code:** **811310** (Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance)
+- **Small Business Size Standard:** $12,500,000 in annual receipts.
+- **Registration Requirement:** Prospective contractors **must be registered in SAM** prior to award.
+
+---
+
+### **Evaluation Factors**
+The contract will be awarded to the responsible offeror with the **Lowest Price and Technically Acceptable Proposal**. Evaluation factors will include:
+1.  **Price** (Base plus options)
+2.  **Corporate Experience**
+3.  **Past Performance**
+
+---
+
+### **Agency & Contacts**
+- **Agency:** DEPT OF DEFENSE / DEPT OF THE NAVY / NAVFACSYSCOM MID-ATLANTIC
+- **Place of Performance:** New London Submarine Base, Groton CT 06349-5026 US
+- **Primary Contact:** **Rebecca Spaulding** | rebecca.j.spaulding.civ@us.navy.mil
+
+---
+
+### **Additional Notes**
+All official notifications, including amendments, will be posted **only** on the SAM.gov website. Offerors are responsible for checking the site daily.
+
+---","The **Department of the Navy (NAVFAC)** is issuing a **Pre-Solicitation Notice** for **Elevator Maintenance and Repair Services** at the **Naval Submarine Base New London, Groton, CT**.
+
+This is an **Unrestricted** requirement anticipated as a *Firm Fixed Price (FFP) IDIQ* contract. The award will go to the lowest-priced, **Technically Acceptable** proposal, evaluated on Price, Corporate Experience, and Past Performance. A site visit is scheduled for **November 25, 2025**.
+
+**Solicitation available:** On or about **November 17, 2025**. **Proposals due:** On or about **December 15, 2025**. Contact **Rebecca Spaulding** for details.",gemini-flash-lite-latest,20251105-062540
+https://sam.gov/workspace/contract/opp/b0ae192205034d9b904a4a6627d4a14b/view,"## SAM.gov Opportunity Summary
+
+### **Detected Opportunity Type:** Presolicitation (Incorporating Draft RFP and Updates)
+
+### **Full Summary (≤500 words)**
+
+### **Quick Summary**
+The **Department of the Navy (NAWC TRAINING SYSTEMS DIV)** is providing a **Notice of Tentative Acquisition Strategy** and a **Draft Request for Proposal (RFP)** for **Contractor Operations and Maintenance Services (COMS)** supporting the Chief of Naval Air Training (CNATRA). This effort will be executed as a Firm Fixed Price (FFP) Task Order under the **FTSS V Multiple Award Contract (MAC), Lot I (Unrestricted)**. The anticipated period of performance spans 62 months, starting with mobilization in September 2026. **The anticipated RFP release date is January 5, 2026, with proposals due February 5, 2026.**
+
+---
+
+### **Scope of Work**
+The requirement is for Contractor Operations and Maintenance Services (COMS) and Contractor Maintenance Services (CMS) across five Naval Air Stations (NAS): Meridian, MS; Kingsville, TX; Corpus Christi, TX; Whiting Field, FL; and Pensacola, FL.
+
+Key operational details from the Draft RFP include:
+*   **Contract Type:** Prices for CLINs/Tasks are **Firm Fixed Price (FFP)**.
+*   **Period of Performance (PoP):** 62 months total, including a 2-month mobilization (anticipated Sept/Oct 2026) and a 12-month base year, followed by four 12-month option periods.
+*   **IT Access:** Personnel requiring Navy IT access must submit SAAR DD Form 2875 and possess a current background investigation.
+*   **Excess Repair/Replacement:** If repair/replacement costs exceed **\$35,000**, the contract will be adjusted FFP for costs above that threshold, requiring the contractor to submit an RRCR within five working days.
+*   **Data Requirements:** Technical requirements are detailed in Section J, Exhibit A (CDRLs).
+
+---
+
+### **Contract & Timeline**
+*   **Contract Vehicle:** FTSS V MAC, Lot I (Unrestricted).
+*   **NAICS Code:** **541330** (Engineering Services).
+*   **PSC Code:** J069.
+*   **Anticipated RFP Release:** **January 5, 2026**.
+*   **Anticipated Site Visits/Pre-Proposal Conference:** Site Visits November 12-19, 2025; Conference January 6, 2026.
+*   **Proposal Due Date (Draft):** **February 5, 2026, 10:00 AM local time**.
+*   **Anticipated Award Date:** **August 19, 2026**.
+*   **Predecessor Contract:** N6134022F0014 (Fidelity Technologies Corporation).
+
+---
+
+### **Eligibility & Set-Aside**
+This effort will be awarded under **FTSS V, Lot 1 (Unrestricted)**, and will be limited to existing Lot I MAC holders only. The document provides a list of current Lot 1 awardees for market research purposes. Offerors requiring access to sensitive Government Furnished Information (GFI) must complete and submit the **GFI Request and NDA Form (Attachment L-9)**.
+
+---
+
+### **Agency & Contacts**
+*   **Agency:** DEPT OF DEFENSE / DEPT OF THE NAVY / NAWC TRAINING SYSTEMS DIV
+*   **Primary Contact (CO):** **Janet Fondriest** (janet.l.fondriest.civ@us.navy.mil)
+*   **Alternate Contact:** Jana McEntegart (jana.r.mcentegart.civ@us.navy.mil)
+
+---
+
+### **Additional Notes**
+This notice and the accompanying Draft RFP are preliminary and for informational purposes only; they do not constitute a commitment by the Government. Interested parties should monitor the posting for the official RFP release on January 5, 2026.
+
+***","The **Department of the Navy (NAWC Training Systems)** is issuing a Draft RFP for **CNATRA Contractor Operations and Maintenance Services (COMS)**. This effort will be awarded as a Task Order under the **FTSS V MAC, Lot I (Unrestricted)**, and is limited to current Lot I MAC holders.
+
+The scope covers maintenance and operations across five NAS locations over 62 months, utilizing **Firm Fixed Price (FFP)** CLINs. Offerors must comply with IT access and data handling requirements detailed in the draft solicitation.
+
+**Anticipated RFP Release:** January 5, 2026. **Proposals due:** February 5, 2026. Contact **Janet Fondriest** for details or to request GFI via the required NDA.",gemini-flash-lite-latest,20251105-062540
+https://sam.gov/workspace/contract/opp/bbb459c5726348fda8e970e2b2856543/view,"## SAM.gov Opportunity Summary
+
+### **Detected Opportunity Type:** Amendment / Modification Notice (Updating an existing Solicitation)
+
+### **Full Summary** (≤500 words)
+
+### **Quick Summary**
+The **Department of Veterans Affairs (VA)** is seeking quotes for **Portable Fire Extinguisher Maintenance and Inspection Services** at the **Lt. Col. Luke Weathers, Jr. VAMC in Memphis, TN**. This is an **Unrestricted** acquisition under NAICS 811310. The contract period of performance is **November 1, 2025, through September 30, 2026**. This notice is an amendment that incorporates Q&A clarifications and extends the final quote submission deadline. **Quotes are now due by 10:00 AM CT on November 12, 2025.**
+
+---
+
+### **Scope of Work**
+The core requirement is the monthly inspection, testing, and maintenance of portable fire extinguishers across five buildings, the Fisher House, and associated vehicles at the VAMC Memphis facilities.
+
+Key requirements and clarifications provided via amendment include:
+*   **Total Units:** Approximately **687** total fire extinguishers requiring service.
+*   **Inspections:** Requires **monthly inspections** plus a mandatory **annual inspection**.
+*   **Ansul Systems:** Quarterly hood cleaning (inspection/cleaning of hoods, filters, traps, and suppression systems) is required for **eight (8) Ansul systems**. This cost should be included in the main CLIN and billed monthly.
+*   **Hydrostatic Testing:** The contractor must possess its own facility for testing, though subcontracting the actual testing is permitted.
+*   **Vehicle Units:** Approximately 90 extinguishers are located on vehicles at Nonconnah HPBC and Phelan sites; the COR will accompany the contractor to these locations.
+*   **Compliance:** Work must adhere to NFPA 10, NFPA 96, and OSHA 1910.157(e)(2).
+*   **Staffing:** Employees must complete mandatory VA Privacy Training prior to work and wear ID above the waist.
+
+---
+
+### **Contract & Timeline**
+*   **Type:** Commercial Item Acquisition (Incorporates FAR 52.212-1 and 52.212-4).
+*   **NAICS:** **811310** (Commercial and Industrial Machinery and Equipment Repair and Maintenance).
+*   **Size Standard:** \$12.5 Million NET.
+*   **Period of Performance (Base POP):** 11/01/2025 – 09/30/2026.
+*   **Response Due (Quotes):** **November 12, 2025, 10:00 AM CT** (Extended from previous dates).
+*   **Published:** November 4, 2025 (Note: Original solicitation published earlier).
+
+---
+
+### **Eligibility & Set-Aside**
+*   **Set Aside:** **Unrestricted Acquisition**.
+*   **SCA:** Wage Determination No.: 2015-4673, Revision No.: 29 applies.
+
+---
+
+### **Evaluation Factors**
+Offers will be evaluated based on:
+1.  **Price**
+2.  **Experience** (Relevancy, recency, magnitude, and VA campus experience)
+3.  **Past Performance** (CPARS and reference checks)
+
+---
+
+### **Agency & Contacts**
+*   **Agency:** VETERANS AFFAIRS, DEPARTMENT OF / NETWORK CONTRACT OFFICE 9 (36C249)
+*   **Primary Contact (Submissions/Questions):** Elyse McVey | Elyse.McVey@va.gov | 615-225-6502
+*   **Site Visit POC:** Chere Taylor | Chere.Taylor@va.gov | 901-498-4062
+
+---
+
+### **Additional Notes**
+A **site visit** was offered on **Thursday, November 6, 2025, at 2:00 PM CT** (meet at the main hospital entrance by the parking garage). Offerors must acknowledge receipt of this amendment and incorporate all Q&A clarifications into their final pricing and technical approach. Prices must be held firm for 30 calendar days.
+
+---","The **Department of Veterans Affairs (VA)** seeks quotes for **Portable Fire Extinguisher Maintenance and Inspection Services** at the **Memphis VAMC, TN**. This is an **Unrestricted** acquisition (NAICS 811310) covering 687 units, including monthly inspections and quarterly cleaning for **8 Ansul systems**.
+
+Evaluation factors are **Price, Experience, and Past Performance**. A site visit was offered on November 6, 2025.
+
+**Quotes are due:** **November 12, 2025, 10:00 AM CT** via email to **Elyse.McVey@va.gov**. Offerors must acknowledge all amendments and incorporate Q&A clarifications.",gemini-flash-lite-latest,20251105-062540
+https://sam.gov/workspace/contract/opp/be5b5e71c7484b44b862b27f955baa47/view,"## SAM.gov Opportunity Summary
+
+### **Detected Opportunity Type:** Solicitation / RFQ
+
+### **Full Summary** (400 words)
+
+### **Quick Summary**
+The **Department of the Army / USACE Alaska District** is seeking quotations for **Equipment Mechanic Services** at the **Chena River Lakes Flood Control Project** in North Pole, Alaska. This requirement is a **100% Small Business Set-Aside** under a Time and Materials (T&M) contract structure, estimated not-to-exceed **$80,000 per year**. The solicitation requires annual servicing, troubleshooting, and occasional repairs for approximately 31 pieces of equipment. **Quotations are due November 10, 2025, at 10:00 AM Alaska Standard Time.**
+
+---
+
+### **Scope of Work**
+The contractor must provide all supervision, personnel, tools, and materials necessary to perform equipment mechanic services at the Project Office location (3800 Laurance Road, North Pole, AK).
+
+Key tasks include:
+*   **Annual Maintenance:** Performing required servicing (oil changes, filter replacement, DOT inspections) for equipment, preferably between November 1–30.
+*   **Repairs:** Completing occasional repairs within 10 days or securing an approved schedule extension.
+*   **Equipment Covered:** Includes heavy machinery, boats, generators, and trailers.
+*   **Safety:** Strict adherence to **EM 385-1-1** safety standards is mandatory.
+
+---
+
+### **Contract & Timeline**
+*   **Type:** Time and Materials (T&M) RFQ, simplified acquisition under FAR Part 13.
+*   **Duration:** One Base Year (estimated Nov 10, 2025 – Nov 09, 2026) plus two Option Years.
+*   **Estimated Value:** Not-to-exceed **$80,000 per year**.
+*   **Response Due:** **November 10, 2025, 10:00 AM AKST** (Extended from original date).
+*   **Published:** November 4, 2025.
+
+---
+
+### **Eligibility & Set-Aside**
+*   **Set-Aside:** **100% Total Small Business Set-Aside**.
+*   **NAICS Code:** 811310 (Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance).
+*   **Personnel Requirements:** Mechanics must have a minimum of 2 years of experience. Specific certifications (ASE/MSF/NCCCO) are required. **Qualified equipment and crane mechanics must be Alaska residents.**
+
+---
+
+### **Evaluation Factors**
+Award will be made to the **lowest-priced technically acceptable** offeror.
+*   **Pricing Clarification:** Labor must be billed at burdened hourly rates that incorporate all overhead, G&A, and profit. **Profit is explicitly disallowed on billed materials/parts.**
+*   **Proposal Content:** Proposals do not need to list all technicians or provide estimated material costs upfront; required certifications must be provided post-award.
+
+---
+
+### **Agency & Contacts**
+*   **Agency:** DEPT OF DEFENSE / DEPT OF THE ARMY / W2SN ENDIST ALASKA
+*   **Primary Contact:** **Travis Tofi** (travis.tofi@usace.army.mil | 907-753-2714)
+*   **Site Visit Coordinator:** Jeremy Allen (Jeremy.M.Allen@usace.army.mil | 907-250-9708) for the November 3, 2025, site visit.
+
+---
+
+### **Additional Notes**
+A Q&A document confirms that time spent warming up equipment in cold weather is permissible. Offerors must hold prices firm for 30 calendar days.
+
+***","The **USACE Alaska District** seeks **small business** vendors for **Equipment Mechanic Services** at the **Chena River Lakes Flood Control Project** in North Pole, AK.
+
+This **100% Small Business Set-Aside** is a *Time & Materials RFQ* with a ceiling of **$80,000 per year** for annual servicing and repairs of heavy equipment. Qualified mechanics must be **Alaska residents** and hold specific certifications. Evaluation is based on the **lowest-priced technically acceptable** offer. Note: Profit is prohibited on materials billed.
+
+**Proposals due:** **November 10, 2025, 10:00 AM AKST**. Contact **Travis Tofi** for details. A site visit is scheduled for November 3, 2025.",gemini-flash-lite-latest,20251105-062540
+https://sam.gov/workspace/contract/opp/f996796de3364c118073ba8662ca1efa/view,"## SAM.gov Opportunity Summary
+
+### **Detected Opportunity Type:** Request for Information (RFI) / Market Survey
+
+### **Full Summary (≤500 words)**
+
+### **Quick Summary**
+The **Federal Aviation Administration (FAA)** is issuing a **Request for Information (RFI)** to gather expert industry advice regarding the technical and business process application of its **IFS Enterprise Resource Planning (ERP)** system, which supports the Supply Chain Management (SCM-ERP) platform. The FAA is currently upgrading from IFS App 10 to IFS Cloud (estimated completion 2027) and seeks best practices to improve supply chain efficiency, automate processes, and enhance the platform supporting the FAA Logistics Center (FAALC), Facilities & Equipment Project Materiel Management (F&E PMM), and Configuration Management Automation (CMA). **Responses are due November 5, 2025, at 3:00 PM CT.**
+
+---
+
+### **Scope of Work & Objectives**
+This RFI seeks expertise to advise the FAA on leveraging industry best practices for the IFS ERP within the FAA Supply Chain context. The goal is to improve effectiveness, automate manual processes, and establish a continuous knowledge base for the SCM-ERP platform.
+
+Key objectives include:
+*   Improving supply chain efficiency by applying best practices and implementing additional IFS functionalities.
+*   Conducting Business Process Re-engineering (BPR) where applicable.
+*   Advising on the SCM-ERP infrastructure, including technical and business process applications.
+*   Supporting the FAA in establishing an evolving Supply Chain Strategic Roadmap and effective Investment Analysis (IA).
+
+The associated Draft Performance Work Statement (PWS) indicates that future contract services (if pursued) would involve expert support across various Task Orders, focusing on **IFS optimization without source code modification**. The PWS suggests a potential **one base year plus four option years (5 years)** of performance, primarily located in **Oklahoma City, OK (MMAC)**.
+
+---
+
+### **Contract & Timeline**
+- **Type:** Request for Information (RFI) / Market Survey. **This is not a solicitation.**
+- **Duration (Anticipated):** 1 Base Year + 4 Option Years (if a future contract is awarded).
+- **Estimated Value (PWS Context):** The PWS mentions supporting logistics and inventory management valued at $735M, managing 200k parts annually.
+- **Response Due:** **November 5, 2025, 3:00 PM CT.** (Extended from October 31, 2025).
+- **Published:** November 4, 2025 (Note: The RFI has been amended multiple times, adding Q&A documents).
+
+---
+
+### **Eligibility & Set-Aside**
+This is a **Market Survey** used for informational purposes to develop future acquisition strategy; **no set-aside designation applies** to this RFI.
+- **NAICS Code:** 541512 (Computer Systems Integration Design Consulting Services).
+- **PSC Code:** DA01 (Information Technology Professional Services).
+
+---
+
+### **Requested Information**
+The FAA requests responses address specific questions regarding industry trends, experience with IFS ERP (especially IFS Cloud vs. App 10), best practices for supply chain efficiency, advisory experience (non-developmental), knowledge continuity planning, BPR experience, and experience applying AI within ERP/Supply Chain environments. Responses must be in Microsoft Word format, limited to 18 pages, and must **not** include capability statements.
+
+---
+
+### **Agency & Contacts**
+- **Agency:** TRANSPORTATION, DEPARTMENT OF / FEDERAL AVIATION ADMINISTRATION (FAA)
+- **Primary Contact:** **Stephanie Riddle** (Stephanie.R.Riddle@faa.gov | 405-954-4166)
+
+---
+
+### **Additional Notes**
+The closing date was extended to November 5, 2025. Multiple Q&A attachments have been added via amendment. Responses are not guaranteed to result in future consideration, and the FAA will not pay for any costs incurred in preparing a response.
+
+---","The **Federal Aviation Administration (FAA)** seeks expert input via **Request for Information (RFI)** on optimizing its **IFS ERP** within the **SCM-ERP platform** supporting NAS logistics.
+
+This **Market Survey** aims to gather industry best practices for the ongoing upgrade from IFS App 10 to IFS Cloud, focusing on efficiency, BPR, and technical/business process advice. **No set-aside designation applies** as this is not a solicitation. The PWS suggests potential future work covering 5 years in **Oklahoma City, OK**.
+
+**Submissions are due:** **November 5, 2025, 3:00 PM CT**. Send responses to **Stephanie Riddle** (stephanie.r.riddle@faa.gov). Do not submit capability statements.",gemini-flash-lite-latest,20251105-062540

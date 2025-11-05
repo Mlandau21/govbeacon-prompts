@@ -1,0 +1,40 @@
+sam-url,govbeacon-long-summary,govbeacon-short-summary,model,run_id
+https://sam.gov/workspace/contract/opp/0202c6a52eba42dc8ce29e9958c2a2b1/view,"### **Detected Opportunity Type:** Solicitation / RFP / RFQ (Notice of Availability - CSO)
+
+### **Opportunity Overview**
+- **Title:** Customer Care Prototyping - Commercial Solution Opening (Notice of Availability)
+- **Agency / Office:** DEPT OF DEFENSE / Defense Health Agency (DHA), PEO – Defense Healthcare Management Systems (DHMS)
+- **Opportunity Type:** Notice of Availability (NoA), Commercial Solutions Opening (CSO)
+- **Set-Aside:** Not specified (CSO under 10 U.S.C. § 4022 is generally competitive, but no specific socio-economic set-aside is listed)
+- **NAICS / PSC:** 541512 / DD01
+- **Place of Performance:** Not explicitly stated (Implied DHA/MHS related activities)
+- **Response Date:** November 4, 2026 (Note: Individual Season Notices will establish specific deadlines)
+- **Published Date:** November 4, 2025
+
+### **Purpose & Background**
+The Defense Health Agency (DHA) is issuing this Notice of Availability (NoA) for a Commercial Solutions Opening (CSO) under the authority of 10 U.S.C. § 4022. The goal is to award Other Transaction Agreements (OTAs) for prototype projects directly relevant to enhancing Customer Care activities for the Military Health System (MHS). The Government seeks novel solutions to address current high-touch, expensive, and ineffective Customer Care practices, particularly concerning the foundational platform, which is currently not established.
+
+### **Key Requirements / Scope**
+The CSO seeks prototype projects that involve proof of concept, agile development, or novel application of commercial technologies. Key areas of interest include:
+*   Proactive, multi-discipline service management.
+*   Embedding customer experience via design principles.
+*   Insight-driven approaches, including ML/GenAI.
+*   Maximizing User Self-Service and reducing reliance on legacy ITSM (tickets).
+
+Solutions must demonstrate **Advancement** over the status quo, **Learning** by addressing an objective hypothesis, **Adjusting** mechanisms for real-time changes, and delivering measurable **Solutions**. Successful prototypes may lead to follow-on production agreements under 10 U.S.C. § 4022(f).
+
+### **Submission & Evaluation Details**
+*   **Authority:** Awards will be made via Other Transaction Agreements (OTAs) under 10 U.S.C. § 4022, which is not subject to the FAR/DFARS.
+*   **Process:** Submissions are managed through ""Seasons,"" where specific challenges are presented in individual **Season Notices** that will establish precise deadlines.
+*   **Evaluation:** Merit will be the sole consideration, evaluated across four phases: Prospecting, Assessing, Kickstarting, and Episodes (award).
+*   **Cost:** The Government will not reimburse costs associated with preparing materials to determine merit or awardability.
+
+### **Eligibility / Set-Aside Details**
+This CSO satisfies the competitive procedures requirement under 10 U.S.C. § 4022(b)(2). Unless otherwise specified in a Season Notice, there are no restrictions on who may submit a response.
+
+### **Points of Contact**
+- **Primary POC:** Gabriela Hurte (gabriela.y.hurte.civ@health.mil)
+- **Secondary POC:** Sonya Edom (sonya.m.edom.civ@health.mil)
+
+---","
+The Defense Health Agency (DHA) has issued a Notice of Availability for a Commercial Solutions Opening (CSO) to rapidly prototype solutions for enhancing Customer Care activities under 10 U.S.C. § 4022. The DHA seeks novel, agile solutions (NAICS 541512) focused on improving service management, maximizing self-service, and leveraging emerging technologies. Awards will be Other Transaction Agreements (OTAs) for prototype projects, with potential for follow-on production. Interested parties must monitor future ""Season Notices"" for specific challenge deadlines. Contact Gabriela Hurte for details.",gemini-flash-lite-latest,20251105-044109

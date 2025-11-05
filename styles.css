@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-header {
+    background: white;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.app-header h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.row-selector-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.row-selector-dropdown label {
+    font-size: 11px;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.row-dropdown {
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 11px;
+    background: white;
+    min-width: 120px;
+    cursor: pointer;
+}
+
+.row-dropdown:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.upload-section {
+    position: relative;
+}
+
+#csvFile {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #3498db;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 11px;
+}
+
+.upload-button:hover {
+    background: #2980b9;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    height: calc(100vh - 80px);
+}
+
+.comparison-view {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    height: 100%;
+}
+
+.column {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.column-header {
+    padding: 1rem;
+    border-bottom: 1px solid #e1e8ed;
+    background: #f8f9fa;
+    flex-shrink: 0;
+}
+
+.column-header h3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.source-url {
+    font-size: 10px;
+    color: #3498db;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 8px;
+    border: 1px solid #3498db;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+
+.source-url:hover {
+    background: #3498db;
+    color: white;
+}
+
+.source-url.no-url {
+    color: #999;
+    border-color: #ddd;
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+.source-url.no-url:hover {
+    background: #f5f5f5;
+    color: #999;
+}
+
+.column-content {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    font-size: 11px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.error-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #e74c3c;
+    color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    max-width: 400px;
+    z-index: 1000;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .main-content {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .comparison-view {
+        grid-template-columns: 1fr;
+        height: auto;
+        min-height: 500px;
+    }
+    
+    .header-controls {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .app-header {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .header-controls {
+        width: 100%;
+        align-items: center;
+    }
+    
+    .row-dropdown {
+        min-width: 150px;
+    }
+    
+    .main-content {
+        padding: 0.5rem;
+    }
+    
+    .column-header {
+        padding: 0.75rem;
+    }
+    
+    .column-content {
+        padding: 0.75rem;
+    }
+}
+
+/* Loading state */
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 12px;
+    color: #666;
+}
+
+/* Empty state */
+.empty-state {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    font-size: 12px;
+}

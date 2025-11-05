@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GovBeacon Summary Comparison</title>
+    <link rel="stylesheet" href="styles.css?v=6">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div>
+                <h1>GovBeacon Summary Comparison</h1>
+                <p class="subtitle">Auto-loads input.csv. Load a GovBeacon summary export to compare narratives side-by-side.</p>
+            </div>
+            <div class="controls">
+                <div class="file-input">
+                    <label for="summaryCsv">Load sam-summary CSV</label>
+                    <input type="file" id="summaryCsv" accept=".csv" />
+                </div>
+                <div class="file-input secondary">
+                    <label for="baseCsv">Override input.csv</label>
+                    <input type="file" id="baseCsv" accept=".csv" />
+                </div>
+                <div class="row-selector" id="rowSelector" style="display: none;">
+                    <label for="rowSelect">Opportunity</label>
+                    <select id="rowSelect"></select>
+                </div>
+                <div class="search" id="searchContainer" style="display: none;">
+                    <label for="searchInput">Quick search</label>
+                    <input type="search" id="searchInput" placeholder="Filter by keyword" />
+                </div>
+            </div>
+        </header>
+
+        <main class="comparison" id="comparison" style="display: none;">
+            <div class="column">
+                <div class="column-header">
+                    <h2>SAM Description</h2>
+                    <a href="#" id="samUrl" target="_blank" rel="noopener" class="source-link">View notice</a>
+                </div>
+                <div class="column-body" id="samDescription"></div>
+            </div>
+            <div class="column">
+                <div class="column-header">
+                    <h2>Sweetspot Summary</h2>
+                    <a href="#" id="sweetspotUrl" target="_blank" rel="noopener" class="source-link">View source</a>
+                </div>
+                <div class="column-body" id="sweetspotSummary"></div>
+            </div>
+            <div class="column">
+                <div class="column-header">
+                    <h2>HigherGov Summary</h2>
+                    <a href="#" id="highergovUrl" target="_blank" rel="noopener" class="source-link">View source</a>
+                </div>
+                <div class="column-body" id="highergovSummary"></div>
+            </div>
+            <div class="column">
+                <div class="column-header">
+                    <h2>GovBeacon Long Summary</h2>
+                </div>
+                <div class="column-body" id="govbeaconLong"></div>
+            </div>
+            <div class="column">
+                <div class="column-header">
+                    <h2>GovBeacon Short Summary</h2>
+                </div>
+                <div class="column-body" id="govbeaconShort"></div>
+            </div>
+        </main>
+
+        <footer class="status" id="statusBar"></footer>
+        <div class="error" id="errorMessage" role="alert" style="display: none;"></div>
+    </div>
+
+    <script src="app.js?v=5"></script>
+</body>
+</html>
+

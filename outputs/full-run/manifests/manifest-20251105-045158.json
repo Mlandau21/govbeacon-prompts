@@ -1,0 +1,477 @@
+{
+  "generated_at": "2025-11-05T04:51:58.838426Z",
+  "input_csv": "/Users/matt/Desktop/govbeacon-prompts/input.csv",
+  "output_dir": "/Users/matt/Desktop/govbeacon-prompts/outputs/full-run",
+  "metadata_csv": "/Users/matt/Desktop/govbeacon-prompts/outputs/full-run/metadata/sam-metadata.csv",
+  "attachments_dir": "/Users/matt/Desktop/govbeacon-prompts/outputs/full-run/attachments",
+  "opportunities": [
+    {
+      "sam_url": "https://sam.gov/workspace/contract/opp/0202c6a52eba42dc8ce29e9958c2a2b1/view",
+      "opportunity_id": "0202c6a52eba42dc8ce29e9958c2a2b1",
+      "status": "success",
+      "errors": [],
+      "metadata": {
+        "sam-url": "https://sam.gov/workspace/contract/opp/0202c6a52eba42dc8ce29e9958c2a2b1/view",
+        "opportunity_id": "0202c6a52eba42dc8ce29e9958c2a2b1",
+        "title": "Customer Care Prototyping  - Commercial Solution Opening (Notice of Availability)",
+        "description": "Commercial Solution Opening\n\nCustomer Care Prototyping\n\nHT0038-25-S-C002\n\ngabriela.y.hurte.civ@health.mil\n\nNovember 4, 2025\n\n1. Agency Name\u00a0 \n\nDefense Health Agency (DHA)\n\n2. Issuing Acquisition Office\n\nDefense Health Agency, Defense Healthcare Management Systems - Contracting Division (DHMS-CD) in support of the Program Executive Office (PEO) \u2013 Defense Healthcare Management Systems (DHMS)\n\n3. Funding Opportunity Title\n\nCustomer Care Prototyping 2025-2026\n\n4. \nReserved\n\n5. Announcement Type\n\nNotice of Availability (NoA), Commercial Solutions Opening (CSO) IAW 10 U.S.C. \u00a7 4022. PEO DHMS is interested in awarding other transaction agreements under the authority of 10 U.S.C. \u00a7 4022 to carry out prototype projects that are, among other things, directly relevant to enhancing the mission effectiveness of personnel of the Department of Defense, in particular for Customer Care activities outlined in this NoA. A prototype project includes, but is not limited to, a project that addresses:\n\n(A) a proof of concept, model, or process, including a business process;\n\n(B) reverse engineering to address obsolescence;\n\n(C) a pilot or novel application of commercial technologies for defense purposes;\n\n(D) agile development activity;\n\n(E) the creation, design, development, or demonstration of operational utility; or\n\n(F) any combination of subparagraphs (A) through (E).M\n\nAn Agreement awarded under the authority of 10 U.S.C. \u00a7 4022 and is not subject to the Competition in Contracting Act, the Federal Acquisition Regulation, or the Defense Federal Acquisition Regulation Supplement. Any successful prototype project (or portion thereof) awarded under this CSO may be selected for a follow-on production agreement or contract pursuant to 10 U.S.C. \u00a7 4022(f).\n\nThe Government reserves the right to revise this NOA to include other types of CSOs, such as DFARS 212.7004 in the future. Applicable instructions to the relevant authority will be added, if required.\n\nSee attachments for additional information relating to this CSO HT0038-25-S-C002.\n\nHT0038-25-S-C002 - Notice of Availability - Customer Care_04NOV25",
+        "published_date": "2025-11-04",
+        "response_date": "2026-11-04",
+        "set_aside": "",
+        "naics": "541512",
+        "psc": "DD01",
+        "place_of_performance": "",
+        "contact_information": "Gabriela Hurte | gabriela.y.hurte.civ@health.mil; primary; gabriela.y.hurte.civ@health.mil; Gabriela Hurte; Sonya Edom | sonya.m.edom.civ@health.mil; secondary; sonya.m.edom.civ@health.mil; Sonya Edom",
+        "department": "DEPT OF DEFENSE",
+        "sub_tier": "DEFENSE HEALTH AGENCY (DHA)",
+        "office": "DEFENSE HEALTH AGENCY"
+      },
+      "attachments": [
+        {
+          "name": "HT0038-25-S-C002 - Notice of Availability - Customer Care_ 04NOV25.docx",
+          "url": "",
+          "file_type": ".docx",
+          "size": "393916",
+          "attachment_id": "8485a58e96c04a718abfaf7adaba7d3f",
+          "resource_id": "c2fd5a28825d4f238e4d5b5b7920cd2e",
+          "downloaded": true,
+          "local_path": "attachments/0202c6a52eba42dc8ce29e9958c2a2b1/HT0038-25-S-C002 - Notice of Availability - Customer Care_ 04NOV25.docx"
+        }
+      ]
+    },
+    {
+      "sam_url": "https://sam.gov/workspace/contract/opp/14d673d87bb34ae6898156af76a69032/view",
+      "opportunity_id": "14d673d87bb34ae6898156af76a69032",
+      "status": "error",
+      "errors": [
+        "attachment::Failed to request download for resource eeab686e69914249a1da7ba0fd237fa6"
+      ],
+      "metadata": {
+        "sam-url": "https://sam.gov/workspace/contract/opp/14d673d87bb34ae6898156af76a69032/view",
+        "opportunity_id": "14d673d87bb34ae6898156af76a69032",
+        "title": "48--VALVE,CHECK",
+        "description": "Proposed procurement for NSN 4820013943327 VALVE,CHECK:\nLine 0001 Qty 15     UI EA  Deliver To: W1A8 DLA DISTRIBUTION By: 0077 DAYS ADO\nThe solicitation is an RFQ and will be available at the link provided in this notice.  Hard copies of this solicitation are not available.  Digitized drawings and Military Specifications and Standards may be retrieved, or ordered, electronically.\nAll responsible sources may submit a quote which, if timely received, shall be considered.\nQuotes must be submitted electronically.",
+        "published_date": "2025-11-04",
+        "response_date": "2025-11-17",
+        "set_aside": "",
+        "naics": "332911",
+        "psc": "48",
+        "place_of_performance": "",
+        "contact_information": "Questions regarding this solicitation should be emailed to the buyer listed in block 5 of the solicitation document which can be found under the Additional Information link.\nIf the Additional Information link does not work, please go to https://www.dibbs.bsm.dla.mil/Solicitations/ and type the solicitation number in the Global Search box. | DibbsBSM@dla.mil; primary; DibbsBSM@dla.mil; Questions regarding this solicitation should be emailed to the buyer listed in block 5 of the solicitation document which can be found under the Additional Information link.\nIf the Additional Information link does not work, please go to https://www.dibbs.bsm.dla.mil/Solicitations/ and type the solicitation number in the Global Search box.",
+        "department": "DEPT OF DEFENSE",
+        "sub_tier": "DEFENSE LOGISTICS AGENCY",
+        "office": "DLA LAND AND MARITIME"
+      },
+      "attachments": [
+        {
+          "name": "",
+          "url": "",
+          "file_type": null,
+          "size": null,
+          "attachment_id": "1e416324a50c40db8eb1d93615b9ae63",
+          "resource_id": "eeab686e69914249a1da7ba0fd237fa6",
+          "downloaded": false,
+          "local_path": null
+        }
+      ]
+    },
+    {
+      "sam_url": "https://sam.gov/workspace/contract/opp/b0ae192205034d9b904a4a6627d4a14b/view",
+      "opportunity_id": "b0ae192205034d9b904a4a6627d4a14b",
+      "status": "success",
+      "errors": [],
+      "metadata": {
+        "sam-url": "https://sam.gov/workspace/contract/opp/b0ae192205034d9b904a4a6627d4a14b/view",
+        "opportunity_id": "b0ae192205034d9b904a4a6627d4a14b",
+        "title": "CNATRA COMS Notice of Tentative Acquisition Strategy under FTSS V MAC Lot I and Draft RFP",
+        "description": "04 Nov 2025 Update:\n\u00a0 The purpose of this notice update is to incorporate the Draft Solicitation and updated contemplated acquisition dates.\u00a0\u00a0Anticipated Site Visits/Pre-Proposal Conference: Site Visits 12-19 November 2025; Pre-Proposal Conference 06 January 2026.\u00a0 Anticipated RFP Release Date: 05 January 2026.\u00a0 Anticipated Award Date: 19 August 2026.\u00a0 \u00a0All information contained herein is preliminary and for informational purposes only. This DRAFT RFP does not constitute a commitment by the United States Government, nor does it create any obligation on the part of the Government in any way.\u00a0 Further information will be provided, as it becomes known.\n\n02 July 2025:\n\u00a0 The Naval Air Warfare Center Training Systems Division (NAWCTSD) is considering executing this effort under the FTSS V Multiple Award Contract (MAC). In accordance with FAR 16.505 (b)(1), NAWCTSD intends to provide fair opportunity for award of a Firm Fixed Price Task Order under FTSS V Lot 1 (Unrestricted) for Contractor Operation and Maintenance Services (COMS) and Contractor Maintenance Services (CMS) in support of Chief of Naval Air training (CNATRA) at NAS Corpus Christi, TX, NAS Kingsville, TX, NAS Whiting Field, FL, NAS Pensacola, FL, and NAS Meridian, MS. The period of performance is 62 months, inclusive of two (2) month mobilization and one (1) twelve (12) month base year with four (4) twelve (12) month options. Start of contractor performance (Mobilization) anticipated to be 01 November 2026. This effort will be awarded under FTSS V, Lot I and will be limited to Lot I MAC holders only. A list of FTSS V Lot 1 Points of Contact is included with this notice for possible subcontracting opportunities. Anticipated Site Visits/Pre-Proposal Conference: Site Visits 20 October 2025 through 31 October 2025. Pre-Proposal Conference 03 November 2025. Anticipated RFP Release Date: 20 October 2025. Anticipated Award Date: 19 August 2026. Other Information: Predecessor Contract: N6134022F0014, Fidelity Technologies Corporation. The Service Contract Labor Standards Statute is applicable. Be advised that the aforementioned information is anticipatory in nature and is not binding. Further information will be provided, as it becomes known.",
+        "published_date": "2025-11-04",
+        "response_date": "",
+        "set_aside": "",
+        "naics": "541330",
+        "psc": "J069",
+        "place_of_performance": "{'zip': '', 'streetAddress': ''}",
+        "contact_information": "Janet Fondriest | janet.l.fondriest.civ@us.navy.mil | 3864797514; primary; janet.l.fondriest.civ@us.navy.mil; 3864797514; Janet Fondriest; Jana McEntegart | jana.r.mcentegart.civ@us.navy.mil | 4073804997; secondary; jana.r.mcentegart.civ@us.navy.mil; 4073804997; Jana McEntegart",
+        "department": "DEPT OF DEFENSE",
+        "sub_tier": "DEPT OF THE NAVY",
+        "office": "NAWC TRAINING SYSTEMS DIV"
+      },
+      "attachments": [
+        {
+          "name": "L-9_GFI Request and NDA Form_N6134026R0002.docx",
+          "url": "",
+          "file_type": ".docx",
+          "size": "39592",
+          "attachment_id": "ffe2395426be48a4a6ce591ffdf9fc4d",
+          "resource_id": "3286c1db1972488985f1902572ef9e70",
+          "downloaded": true,
+          "local_path": "attachments/b0ae192205034d9b904a4a6627d4a14b/L-9_GFI Request and NDA Form_N6134026R0002.docx"
+        },
+        {
+          "name": "CNATRA COMS N6134026R0002 Draft RFP_11.4.25.pdf",
+          "url": "",
+          "file_type": ".pdf",
+          "size": "773566",
+          "attachment_id": "2dd88b8304554c588d4bddd156f614cb",
+          "resource_id": "3bbdc4fb706b4f90a583aee99a5be594",
+          "downloaded": true,
+          "local_path": "attachments/b0ae192205034d9b904a4a6627d4a14b/CNATRA COMS N6134026R0002 Draft RFP_11.4.25.pdf"
+        },
+        {
+          "name": "FTSS V Lot 1 Awardees_POC List_4.15.2025.docx",
+          "url": "",
+          "file_type": ".docx",
+          "size": "27586",
+          "attachment_id": "8b2c6321e42145b2896cfaa452cc1df0",
+          "resource_id": "7c8c881eaa174b0282cbc75b8dfab1e4",
+          "downloaded": true,
+          "local_path": "attachments/b0ae192205034d9b904a4a6627d4a14b/FTSS V Lot 1 Awardees_POC List_4.15.2025.docx"
+        },
+        {
+          "name": "Department of Defense Procurement Toolbox",
+          "url": "",
+          "file_type": null,
+          "size": null,
+          "attachment_id": "d4d33bc9e05e40bbbeb6f1ff495b63db",
+          "resource_id": "30fa8bf8f8524cd49ee96140b5b87ab9",
+          "downloaded": true,
+          "local_path": "attachments/b0ae192205034d9b904a4a6627d4a14b/Department of Defense Procurement Toolbox"
+        },
+        {
+          "name": "Registration Instructions for the PIEE Solicitation Module",
+          "url": "",
+          "file_type": null,
+          "size": null,
+          "attachment_id": "dbd82fe425fb49fe939b16253b62da90",
+          "resource_id": "9073e9756a974c2a85429650e7ad28be",
+          "downloaded": true,
+          "local_path": "attachments/b0ae192205034d9b904a4a6627d4a14b/Registration Instructions for the PIEE Solicitation Module"
+        },
+        {
+          "name": "Web Based Training for the PIEE Solicitation Module",
+          "url": "",
+          "file_type": null,
+          "size": null,
+          "attachment_id": "54638628202d4963946ce67f4c96d0d7",
+          "resource_id": "ae3efbf2ca6a43ff9a7430d48bacd5a8",
+          "downloaded": true,
+          "local_path": "attachments/b0ae192205034d9b904a4a6627d4a14b/Web Based Training for the PIEE Solicitation Module"
+        },
+        {
+          "name": "PIEE Solicitation Module Link for N6134026R0002",
+          "url": "",
+          "file_type": null,
+          "size": null,
+          "attachment_id": "686423a6fb364a32ab7eb9320daca13e",
+          "resource_id": "77c166b099b9499ea3568e91869e327d",
+          "downloaded": true,
+          "local_path": "attachments/b0ae192205034d9b904a4a6627d4a14b/PIEE Solicitation Module Link for N6134026R0002"
+        }
+      ]
+    },
+    {
+      "sam_url": "https://sam.gov/workspace/contract/opp/5e99a5f40bc34380a59a482440ecd087/view",
+      "opportunity_id": "5e99a5f40bc34380a59a482440ecd087",
+      "status": "success",
+      "errors": [],
+      "metadata": {
+        "sam-url": "https://sam.gov/workspace/contract/opp/5e99a5f40bc34380a59a482440ecd087/view",
+        "opportunity_id": "5e99a5f40bc34380a59a482440ecd087",
+        "title": "Elevator Maintenance and Repair Services",
+        "description": "Solicitation Number: \n6137322\n\nNotice Type: Pre-Solicitation Notice\n\nThis notice does NOT constitute a request for proposal, request for quote, or invitation for bid. The work is for Elevator Maintenance and Repairs located at Naval Submarine Base New London, Groton CT. The work includes, but is not limited to, providing all labor, supervision, management, tools, materials, equipment, facilities, transportation, incidental engineering and other items necessary to provide the services as described in the Performance Work Statement of the Request for Proposal (RFP). The services will be acquired using commercial procedures under FAR Part 12.\u00a0 A Firm Fixed Price (FFP) Indefinite Delivery Indefinite Quantity (IDIQ) Contract is anticipated.\n\nThe contract term will be a base period of twelve (12) month plus four twelve (12) month options.\u00a0 Only the base period of the contract will offer a minimum guarantee. \u00a0The Government intends to award a contract resulting from this solicitation to the responsible offeror with the Lowest Price and Technically Acceptable Proposal based on the following evaluation factors:\n\nPrice\n\nCorporate Experience\n\nPast Performance\n\nThe offeror\u2019s proposal shall contain a response to each of the evaluation factors in the form prescribed by the solicitation. The resulting contract will be awarded to the responsible offeror whose proposal, conforming to the Request for Proposal, will be most advantageous to the Government. Price, base plus options, and all other evaluation factors will be considered.\n\nThe Procurement Method shall be Contracting by Negotiation.\n\n\u00a0The proposed contract listed here is \nUnrestricted\n. The NAICS Code for this procurement is 811310 and the annual Small Business size standard is $12,500,000 in annual receipts.\n\nProspective contractors must register in the System for Award Management (SAM) at\u00a0 https://www.sam.gov database prior to award. Bidders are hereby notified that failure to register may render their firm ineligible for award. Specifications and drawings will not be directly provided in a paper hard copy format or CD-ROM. The address for downloading this synopsis is https://www.sam.gov.\n\nAll prospective offerors are encouraged to register on the above website for this procurement when specifications and associated documents become available. Notification of any changes to this solicitation (i.e. amendments) shall be made \nonly\n on the web site. It is therefore the offeror\u2019s responsibility to check the web site daily for any posted changes to the solicitation.\n\nOfferors should submit verification of their firm's registration in the SAM Database with their proposal. Online Representations and Certifications will be required on this contract per clause FAR 52.204-8 Annual Representations and Certifications, available on the FAR website https://www.acquisition.gov.\n\nThe Solicitation shall be available \non or about\n 17 November 2025. Proposals will be due \non or about\n 15 December 2025. The Pre-Proposal Conference or Site Visit will be scheduled \non or about\n 25 November 2025. \nThe Issue date, Proposal Due date, and Award date stated in this notice are approximates.\u00a0 \n\n\u00a0\n\nContracting Office Address: \nNAVFAC PWD Bldg 135 Box 400, New London Submarine Base, Groton CT 06349-5026\n\nPlace of Performance: \nNew London Submarine Base, Groton CT 06349-5026 US\n\nPoint of Contact(s): \nRebecca Spaulding \u00a0rebecca.j.spaulding.civ@us.navy.mil",
+        "published_date": "2025-11-04",
+        "response_date": "",
+        "set_aside": "",
+        "naics": "811310",
+        "psc": "J036",
+        "place_of_performance": "{'code': 'CT', 'name': 'Connecticut'}, 06349, {'code': 'USA', 'name': 'UNITED STATES'}",
+        "contact_information": "Rebecca Spaulding | rebecca.j.spaulding.civ@us.navy.mil | 8606944557; 8606944565; primary; rebecca.j.spaulding.civ@us.navy.mil; 8606944557; Rebecca Spaulding",
+        "department": "DEPT OF DEFENSE",
+        "sub_tier": "DEPT OF THE NAVY",
+        "office": "NAVFACSYSCOM MID-ATLANTIC"
+      },
+      "attachments": [
+        {
+          "name": "J-1502000-02 Facilities Property Inventory Corrected 10 28 2025.xlsx",
+          "url": "",
+          "file_type": ".xlsx",
+          "size": "32691",
+          "attachment_id": "30eaa32c44b34f2fb44a4d6ac396e240",
+          "resource_id": "418ae893b1b5433fa2e0264821385f54",
+          "downloaded": true,
+          "local_path": "attachments/5e99a5f40bc34380a59a482440ecd087/J-1502000-02 Facilities Property Inventory Corrected 10 28 2025.xlsx"
+        },
+        {
+          "name": "0100000 C General Information.docx",
+          "url": "",
+          "file_type": ".docx",
+          "size": "32700",
+          "attachment_id": "e94feb2467c84a94a50a214cc39db793",
+          "resource_id": "63a2a656cc6b45b2924ccdbf14ccaa32",
+          "downloaded": true,
+          "local_path": "attachments/5e99a5f40bc34380a59a482440ecd087/0100000 C General Information.docx"
+        }
+      ]
+    },
+    {
+      "sam_url": "https://sam.gov/workspace/contract/opp/05f299e871dc4822a797387ff9d1c1d2/view",
+      "opportunity_id": "05f299e871dc4822a797387ff9d1c1d2",
+      "status": "success",
+      "errors": [],
+      "metadata": {
+        "sam-url": "https://sam.gov/workspace/contract/opp/05f299e871dc4822a797387ff9d1c1d2/view",
+        "opportunity_id": "05f299e871dc4822a797387ff9d1c1d2",
+        "title": "Instrument Calibration and Preventative Maintenance Services/Repair for four (4) Tinius Olsen, RIA-JMTC Materials Science Lab at Rock Island Arsenal",
+        "description": "Sources Sought: \n\nTitle: Instrument Calibration and Preventative Maintenance Services/Repair for four (4) Tinius Olsen, RIA-JMTC Materials Science Lab at Rock Island Arsenal\n\nProduct Service Code: J049\n\nNAICS Code: 334519\n\nThis is a Sources Sought Notice and NOT a solicitation announcement.\u00a0 The purpose of this notice is to gain knowledge of potential qualified sources for the Instrument Calibration and Preventative Maintenance Services/Repair for four (4) Tinius Olsen, RIA-JMTC Materials Science Lab at Rock Island Arsenal in support of the Joint Manufacturing and Technology Center (JMTC).\u00a0\n\nThe U.S. Army Contracting Command-Rock Island (ACC-RI) is seeking sources only. ACC-RI intends to consider all capability statements when developing its finalized acquisition strategy and resulting solicitation(s).\n\nPlease submit all capability statements as outlined below by 12:00 P.M. CST on November 11, 2025, by email to angel.j.traman.civ@army.mil.\n\nThis is for information only which may be used for planning purposes and should not be construed as a Request for Quote or as an obligation on the part of the Government. The Government does not intend to award a contract on the basis of this request or otherwise pay for the information solicited. ACC-RI will only utilize the information you provide in developing its acquisition approach for future requirements.\n\nPlease provide a capability statement to include supporting information and documents to support the vendor\u2019s ability to perform this requirement in accordance with Attachment 0001 \u2013 DRAFT Statement of Work (SOW). The capability statement should clearly address the following areas: \n\nVendor\u2019s Size Standard, DUNS Number, EUI, Cage Code\n\nAccredited in ISO/IEC 17025 or equivalent to standard ISO standards.\n\nQualified personnel to be performed by factory certified representatives.\n\nQualified personnel provide unlimited phone support.\n\nPersonnel shall provide unlimited emergency on-site support within 2 business days.",
+        "published_date": "2025-11-04",
+        "response_date": "2025-11-11",
+        "set_aside": "",
+        "naics": "334519",
+        "psc": "J049",
+        "place_of_performance": "{'code': '65078', 'name': 'Rock Island'}, {'code': 'IL', 'name': 'Illinois'}, 61299, {'code': 'USA', 'name': 'UNITED STATES'}",
+        "contact_information": "Angel Traman | angel.j.traman.civ@army.mil | 5206930515; primary; angel.j.traman.civ@army.mil; 5206930515; Angel Traman",
+        "department": "DEPT OF DEFENSE",
+        "sub_tier": "DEPT OF THE ARMY",
+        "office": "W6QK ACC-RI"
+      },
+      "attachments": [
+        {
+          "name": "Attachment 0001-SCOPE OF WORK.pdf",
+          "url": "",
+          "file_type": ".pdf",
+          "size": "171207",
+          "attachment_id": "f6f77c3935704ed68c3db11d618c382c",
+          "resource_id": "ebce3d8a03ae4dfc87b7e80570cc028b",
+          "downloaded": true,
+          "local_path": "attachments/05f299e871dc4822a797387ff9d1c1d2/Attachment 0001-SCOPE OF WORK.pdf"
+        },
+        {
+          "name": "Sources Sought Tinius Olsen Testing Equipment.pdf",
+          "url": "",
+          "file_type": ".pdf",
+          "size": "80858",
+          "attachment_id": "d266bde19d144af3a73884ef61b99e6e",
+          "resource_id": "7994d30341aa466fa2b61abb5ebb5c18",
+          "downloaded": true,
+          "local_path": "attachments/05f299e871dc4822a797387ff9d1c1d2/Sources Sought Tinius Olsen Testing Equipment.pdf"
+        }
+      ]
+    },
+    {
+      "sam_url": "https://sam.gov/workspace/contract/opp/bbb459c5726348fda8e970e2b2856543/view",
+      "opportunity_id": "bbb459c5726348fda8e970e2b2856543",
+      "status": "success",
+      "errors": [],
+      "metadata": {
+        "sam-url": "https://sam.gov/workspace/contract/opp/bbb459c5726348fda8e970e2b2856543/view",
+        "opportunity_id": "bbb459c5726348fda8e970e2b2856543",
+        "title": "Memphis VAMC Portable Fire Extinguisher Maintenance and Inspection Services",
+        "description": "The Lt. Col. Luke Weathers, Jr. Veterans Affairs Medical Center requires Portable Fire Extinguisher Maintenance and Inspection Services as outling in the Statement of Work contained herein. The period of performance will be 11/01/2025-09/30/2026.\u00a0\n\nQuestions are due no later than 2:00 PM CT 10/24/2025.\n\nQuotes are due no later than 10:00 AM CT 10/29/2025.\n\n\u00a0All questions and quotes must be submitted in writing via email to Elyse.McVey@va.gov\u00a0\n\nThis modification extends the Quote due date to 10:00 am CT 11/05/2025 because the COR has not provided answers to questions that have been asked. The Contracting Officer will accept revisions to quotes already submitted once the questions and answers have been posted.\n\nThis modification is to post the questions and answers.\u00a0\n\nThis modification offers a site visit as outlined in the attached modification and extends the Quote due date to 10:00 am CT 11/12/2025.",
+        "published_date": "2025-11-04",
+        "response_date": "2025-11-12",
+        "set_aside": "",
+        "naics": "811310",
+        "psc": "H342",
+        "place_of_performance": "{'code': 'TN', 'name': 'Tennessee'}, 38104, {'code': 'USA', 'name': 'UNITED STATES'}",
+        "contact_information": "Nicole McVey | Elyse.McVey@va.gov | 615-225-6502; primary; Elyse.McVey@va.gov; 615-225-6502; Nicole McVey",
+        "department": "VETERANS AFFAIRS, DEPARTMENT OF",
+        "sub_tier": "VETERANS AFFAIRS, DEPARTMENT OF",
+        "office": "249-NETWORK CONTRACT OFFICE 9 (36C249)"
+      },
+      "attachments": [
+        {
+          "name": "36C24926Q0031 0002.pdf",
+          "url": "",
+          "file_type": ".pdf",
+          "size": "125297",
+          "attachment_id": "98fd252588e949fda94343a8121ec244",
+          "resource_id": "1814244c96b94872a763209a7a7b34ce",
+          "downloaded": true,
+          "local_path": "attachments/bbb459c5726348fda8e970e2b2856543/36C24926Q0031 0002.pdf"
+        },
+        {
+          "name": "36C24926Q0031 0001.pdf",
+          "url": "",
+          "file_type": ".pdf",
+          "size": "141205",
+          "attachment_id": "33a5bf664eae41f8bada221da8c5deaa",
+          "resource_id": "bf7c54435ac1447495798b7601532214",
+          "downloaded": true,
+          "local_path": "attachments/bbb459c5726348fda8e970e2b2856543/36C24926Q0031 0001.pdf"
+        },
+        {
+          "name": "36C24926Q0031.pdf",
+          "url": "",
+          "file_type": ".pdf",
+          "size": "455093",
+          "attachment_id": "8e04b536323a49e094832143d45c2f21",
+          "resource_id": "b760edf6ef314bd3a1bc5c652938ad4f",
+          "downloaded": true,
+          "local_path": "attachments/bbb459c5726348fda8e970e2b2856543/36C24926Q0031.pdf"
+        }
+      ]
+    },
+    {
+      "sam_url": "https://sam.gov/workspace/contract/opp/2e1d76f5e7e347a298c4f1b1636af4a6/view",
+      "opportunity_id": "2e1d76f5e7e347a298c4f1b1636af4a6",
+      "status": "success",
+      "errors": [],
+      "metadata": {
+        "sam-url": "https://sam.gov/workspace/contract/opp/2e1d76f5e7e347a298c4f1b1636af4a6/view",
+        "opportunity_id": "2e1d76f5e7e347a298c4f1b1636af4a6",
+        "title": "Request for Lease Proposal for Artificial Intelligence (AI) Data Center Development at Arnold AFB, TN, Davis-Monthan AFB, AZ, Edwards AFB, CA Joint Base McGuire-Dix-Lakehurst, and Robins AFB, GA",
+        "description": "The Department of the Air Force (\u201cDAF\u201d) is accepting proposals for the development of Artificial Intelligence (\u201cAI\u201d) data centers (\u201cProjects\u201d). These Projects are in accordance with Executive Order 14179: Removing Barriers to American Leadership in Artificial Intelligence dated 23 January 2025 and Executive Order 14318: Accelerating Federal Permitting of Data Center Infrastructure dated 23 July 2025. Projects must, at a minimum, be \u201cQualifying Projects\u201d as defined in Executive Order 14318 (at Appendix A) including, but not limited to, a facility that requires greater than 100 megawatts (MW) of new load and a Project of at least $500M in capital expenditures. As consideration for leasing its parcels to developers selected under this RFLP, DAF is seeking monetary consideration for the AI data center. If an onsite power generation component is included in the proposal, then the DAF will require the first right of refusal to power generation.\n\nExecutive Order 13327, Federal Real Property Asset Management, establishes \u201cIt is the policy of the United States to promote the efficient and economical use of America\u2019s real property assets and to assure management accountability for implementing Federal real property management reforms.\u201d Furthermore, policy from the Deputy Assistant Secretary of the Air Force (Installations) directs, \u201cThe Air Force cannot afford to disregard or discount the value of any asset, and we must optimize the real and potential value of those assets \u2026.\u201d\n\na. 10 U.S.C. \u00a7 2667 (the \u201cEnabling Statute\u201d), as amended, allows the Government to lease real property to non-Federal entities in exchange for consideration in an amount that is not less than the fair market value of the leasehold interest.\n\nb. Pursuant to the foregoing Executive Orders and the Enabling Statute, the DAF (herein, the \u201cGovernment\u201d) is issuing this Request for Lease Proposal (this \u201cRFLP\u201d) to solicit proposals from qualified entities (individually an \u201cOfferor\u201d and collectively \u201cOfferors\u201d) interested in leasing from the Government one or more underutilized parcels of land (each a \u201cProperty\u201d and collectively the \u201cProperties\u201d) for private commercial data center use on Arnold Air Force Base (AFB), TN, Edwards AFB, CA, Joint Base McGuire-Dix-Lakehurst (JBMDL), NJ, Davis- Monthan AFB, AZ, and Robins AFB, GA (each, an \u201cInstallation\u201d and collectively, the \u201cInstallations\u201d), which are all active military installations located within the contiguous United States. Each Property and associated acreage is depicted in Appendix B-1 through B-5 of this RFLP (\u201cDepiction of Properties\u201d), along with additional information. Offerors are not required to submit development proposals for all Installations but instead can choose to submit proposals for Installations in which the Offeror feels a project is commercially viable. The Government may purchase AI Data Center services and power from the Project(s) but is under no obligation to do so.\n\nc. In accordance with and subject to the terms, requirements, and conditions of this RFLP, the Government will evaluate all proposals received to select one or more Offerors as potential lessee(s) with whom to enter into lease negotiations\n\n(individually a \u201cPotential Lessee\u201d and collectively \u201cPotential Lessees\u201d). A Potential Lessee(s) with whom the Government executes a legally binding written long-term ground lease agreement (\u201cLease\u201d) is hereinafter referred to in this RFLP as a \u201cLessee(s).\u201d A Potential Lessee(s) may not actually become a Lessee if lease negotiations are not successful.\n\nPrimary NAICS codes include:\n\n531190 Lessors of Other Real Estate Property\n\nResponses are due no later than 5:00 PM Central Time on 14 November 2025.\n\nPlease direct all pertinent questions to David Mairs david.mairs@us.af.mil or 361-290-3400\n\nAttachments: Attachment 1 - RFLP No. AFCEC-26-R-0002",
+        "published_date": "2025-11-04",
+        "response_date": "2025-11-14",
+        "set_aside": "",
+        "naics": "531190",
+        "psc": "X1QA",
+        "place_of_performance": "{'code': '65000', 'name': 'San Antonio'}, {'code': 'TX', 'name': 'Texas'}, 78226, {'code': 'USA', 'name': 'UNITED STATES'}",
+        "contact_information": "David Mairs | david.mairs@us.af.mil | 3612903400; primary; david.mairs@us.af.mil; 3612903400; David Mairs",
+        "department": "DEPT OF DEFENSE",
+        "sub_tier": "DEPT OF THE AIR FORCE",
+        "office": "FA8903  772 ESS PK"
+      },
+      "attachments": [
+        {
+          "name": "RFLP Developer Question Responses_4 Nov 2025.docx",
+          "url": "",
+          "file_type": ".docx",
+          "size": "23694",
+          "attachment_id": "d36e750235064b53a3b07b257ef4ddea",
+          "resource_id": "349f2c45e4e349cb9f11227a681a6f35",
+          "downloaded": true,
+          "local_path": "attachments/2e1d76f5e7e347a298c4f1b1636af4a6/RFLP Developer Question Responses_4 Nov 2025.docx"
+        },
+        {
+          "name": "Appendix B-4 - Depiction of the Properties - JBMDL.pdf",
+          "url": "",
+          "file_type": ".pdf",
+          "size": "728620",
+          "attachment_id": "f837778157f64b8b87a47a6760e349ba",
+          "resource_id": "c899630e7ec144c5ac748161ec144de9",
+          "downloaded": true,
+          "local_path": "attachments/2e1d76f5e7e347a298c4f1b1636af4a6/Appendix B-4 - Depiction of the Properties - JBMDL.pdf"
+        },
+        {
+          "name": "AI Data Center RFLP_10 15 25_final.pdf",
+          "url": "",
+          "file_type": ".pdf",
+          "size": "2182795",
+          "attachment_id": "191ecf900c6c4c09bad9b15ea720278a",
+          "resource_id": "91a73da97bd5464baf9c733d48f20a57",
+          "downloaded": true,
+          "local_path": "attachments/2e1d76f5e7e347a298c4f1b1636af4a6/AI Data Center RFLP_10 15 25_final.pdf"
+        }
+      ]
+    },
+    {
+      "sam_url": "https://sam.gov/workspace/contract/opp/f996796de3364c118073ba8662ca1efa/view",
+      "opportunity_id": "f996796de3364c118073ba8662ca1efa",
+      "status": "success",
+      "errors": [],
+      "metadata": {
+        "sam-url": "https://sam.gov/workspace/contract/opp/f996796de3364c118073ba8662ca1efa/view",
+        "opportunity_id": "f996796de3364c118073ba8662ca1efa",
+        "title": "Request for Information: Supply Chain Management-Enterprise Resource Planning (SCM-ERP) Solution Support for FAA ATO Configuration Logistics Maintenance Resource Solutions (CLMRS)",
+        "description": "Amendment - 11.04.2025:\u00a0\u00a0The purpose of this amendment is to add an updated Questions and Answers attachment to the Attachments/Links section.\n\nAmendment - 10.23.2025:\u00a0 The purpose of this amendment is to add an updated Questions and Answers attachment to the Attachments/Links section.\n\nAmendment - 10.22.2025: The purpose of this amendment is to add a Questions and Answers attachment to the Attachments/Links section.\n\nAmendment - 10.21.2025:\u00a0 The purpose of this amendment is to add a Questions and Answers attachment to the Attachments/Links section and extend the closing date to November 5, 2025, 3:00 PM CT.\n\nI.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 INTRODUCTION / PURPOSE \n\nThe Federal Aviation Administration (FAA) Supply Chain Management - Enterprise Resource Planning (SCM-ERP) platform includes an IFS ERP with interfaces to other FAA systems.\u00a0 The FAA is seeking experienced expert services to advise the FAA on industry\u2019s best practices for the technical and business process application of the IFS ERP within the FAA Supply Chain context. The contractor is expected to already possess expertise in applying the industry\u2019s best practices in the application of the IFS ERP in a Supply Chain context and is expected to quickly gain an understanding and expertise on the FAA application and processes so as to advise and recommend courses of action to the FAA.\u00a0 Interested parties should review the attached Draft Performance Work Statement (PWS) and propose appropriate Labor Categories for the required services.\n\nThis market survey announcement is issued in accordance with the FAA Acquisition Management System (AMS) Policy at 3.2.1.2.1.\n\nThis is not a Screening Information Request (SIR) or Request for Proposal (RFP) of any kind. The responses to this Market survey will be used for informational purposes only. The FAA is not seeking or accepting unsolicited proposals. Responders are advised that the FAA will not pay for any information received or for administrative costs incurred in preparing a response to the Market survey. Any costs associated with responding to this survey are solely at the interested company\u2019s expense. Companies who choose not to respond to this Request for Information (RFI) are not precluded from responding to future CLMRS requests. The FAA does not intend to publish the results of this Market survey.\n\nII.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 NATURE OF COMPETITION \n\nThe acquisition strategy for this procurement has not been determined at this time. The FAA intends to consider the information provided in this RFI to develop FAA's future acquisition strategy.\u00a0 The FAA may use portions of the company\u2019s responses in developing those strategies.\n\nIII.\u00a0\u00a0\u00a0\u00a0\u00a0 BACKGROUND \n\n\u00a0 \u00a0 \u00a0a.\u00a0 SERVICES OVERVIEW \n\nIFS Software is a Commercial of the Shelf (COTS) Enterprise Resource Planning (ERP) Software that the FAA configures for the FAA\u2019s Supply Chain Management ERP (SCM-ERP) platform.\u00a0 The SCM-ERP platform is all-inclusive of the IFS ERP plus all the interfaces, systems, and technologies.\u00a0 The IFS ERP has been actively supporting the FAA since implementation in 2016.\u00a0 The FAA is currently upgrading from IFS App 10 to IFS Cloud with estimated completion in 2027.\u00a0 The IFS ERP interfaces with as many as 10 other systems performing functions related to Purchase Requests (PRs), Purchase Orders (POs), Shop Orders (SOs), Customer Orders (COs), Projects, Financial Administration, and multiple other functions supporting the FAA Supply Chain.\u00a0\u00a0 The SCM-ERP platform (and thereby the IFS ERP) supports three (3) business sectors:\u00a0 1. Facilities & Equipment Project Materiel Management (F&E PMM) responsible for deploying new systems to the National Airspace System (NAS).\u00a0 2. The FAA Logistics Center (FAALC) who supplies parts to maintain existing systems within the NAS. 3. Configuration Management Automation (CMA) responsible for the system specifications throughout the NAS.\u00a0\n\nThe FAA plans to leverage industry input and best practices to continue to improve the efficiency and effectiveness of the FAA Supply Chain.\u00a0 In doing so, the FAA intends to address opportunities within the technical infrastructure, to implement additional functionalities within the IFS ERP, and to conduct Business Process Re-engineering (BPR) to make best use of the IFS ERP.\u00a0\u00a0 Industry\u2019s best practice experience and expertise is required to further progress toward these goals.\u00a0\u00a0\u00a0 \u00a0\n\nIV.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 OBJECTIVES\n\nThe new IFS Services should achieve the following high-level objectives:\n\nImprove the effectiveness and efficiency of the FAA Supply Chain by applying industry\u2019s best practices, implementing additional functionalities available within the IFS ERP, and conducting BPR where applicable.\n\nAutomate inefficient manual processes by leveraging the IFS ERP.\u00a0\n\nProvide informed FAA-specific advice regarding the FAA SCM-ERP infrastructure, and both the Technical and Business Process applications of the IFS ERP.\n\nAchieve a base continuity of knowledge which is sustained through the ebb and flow of work for the SCM-ERP platform.\n\nProvide FAA-specific training when needed related to the IFS ERP.\n\nIntroduce new technologies which may further improve the effectiveness and efficiency of the FAA Supply Chain while complying with FAA Security and System Specification requirements.\n\nSupport the FAA in establishing and sustaining an enhanced and evolving FAA Supply Chain Strategic Roadmap by leveraging informed FAA resources.\u00a0\n\nSupport the FAA in achieving more effective and efficient Investment Analysis (IA) by leveraging informed FAA resources throughout the FAA investment lifecycle including but not limited to: Requirements Definition, Solution Design, Work Breakdown Structure definition, Cost Estimating, Schedule Estimating, and Shortfalls / Benefits analysis.\u00a0 \u00a0\u00a0\u00a0\n\nV.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 REQUESTED INFORMATION / QUESTIONS TO INDUSTRY\n\nThe FAA plans to evolve and modernize the FAA Supply Chain and the supporting SCM-ERP platform.\u00a0 A key strategy of the FAA is to leverage industry\u2019s best practices to make the most of the existing technologies within the SCM-ERP and implement new technologies consistent with industry leaders in Supply Chain Management.\u00a0 The FAA believes that integrating IFS ERP best practices into planning and implementation of strategic initiatives will be a key factor in ensuring the FAA Supply Chain achieves and sets the standard for world-class performance.\n\nPlease address the following questions in your market survey responses. Responses should be provided in the order listed below. It is not required to answer every question. However, companies are requested to address questions to the maximum extent possible with the primary focus on questions that fall within their expertise\n.\n For items requesting vendor experience, please provide the following for each response: (1) Program/Contract(s) name, (2) Company role (i.e. Prime/Sub), and (3) Customer point of contact information.\n\nTo what extent does your company advocate that the FAA should leverage current industry trends?\u00a0 How will they help mitigate current system shortfalls?\n\nWhat is your experience in identifying and applying industry\u2019s best practices utilizing the IFS ERP? Specifically, IFS Cloud? \u00a0\n\nWhat are the advantages and disadvantages of IFS Cloud versus IFS App 10 from your experience?\u00a0 Provide specific examples.\n\nWhat are specific examples of industry\u2019s best practices with the IFS ERP which have the most impact on Supply Chain effectiveness and efficiency?\n\nWhat experience do you have providing guidance within Supply Chain in an advisory role (not in an actual software development / IT role)?\u00a0 What were the results achieved?\n\nWhat are some of the functionalities within IFS Cloud you have found most impactful?\u00a0 Provide specific examples.\n\nHow would you propose to maintain a continuity of IFS ERP and FAA-specific knowledge within your company in an FAA environment where work and resource requirements fluctuate?\n\nWhat is your experience in supporting a business in optimizing their use of the IFS ERP to improve effectiveness and efficiency?\n\nWhat is your experience in Business Process Re-engineering (BPR) in association with the IFS ERP and/or a Supply Chain context?\u00a0 Results achieved?\n\nWhat is your experience in leveraging modern interface technologies to streamline and optimize an ERP system infrastructure? With the IFS ERP?\n\nWhat is your experience in advising a Software Development team in the upgrades and maintenance associated with the IFS ERP?\n\nDescribe your company\u2019s experience related to the FAA, or equivalent scope of work within the last 3 years. If no FAA experience is available, describe experience with Supply Chain tools including IFS ERP and otherwise.\u00a0 Provide specific experience examples, and include any results achieved. Describe any best practices and lessons learned. Describe challenges encountered when deploying/utilizing new technology and how the challenges were overcome.\u00a0\n\nWhat is your experience with SAFe Agile methodology?\u00a0 In a software development context? In a business context outside of software development?\n\nWhat Organizational Change Management (OCM) processes has your company used in the past? How might this be applied in the FAA?\n\nWhat common development platforms has your company used in the past and what methods were used for management between teams and improving accountability?\n\nWhat experience do you have in applying AI within an ERP and/or Supply Chain environment?\u00a0 Please specify which AI tools and how you applied them.\n\nPlease provide the following administrative/background information for your company:\n\nName, mailing address, phone number, company website, and e-mail of designated point(s) of contact.\n\nBusiness Type/Size based on North American Industry Classification System (NAICS) code 541512 Computer Systems Integration Design Consulting Services.\n\nVI.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 SUBMISSION INSTRUCTIONS \n\nInterested parties must provide responses in writing. Submissions should be submitted electronically in Microsoft Word format, Times New Roman, font size 12, and in accordance with the following instructions:\n\nQuestions must be addressed individually, but it is not required to answer every question. Companies are asked to address questions that fall within their expertise\n.\n\nThe written submission cannot exceed 18 pages (maximum 10 MB document). \nNote that certain questions may require less than one page response and others may require more. This can be accommodated if all questions are addressed individually in 18 pages or less.\n\nOptional: Any technical diagrams to support a technical solution can be accommodated but cannot exceed three pages (maximum 5 MB for jpeg format).\u00a0 This can be in addition to the 18 page written submission limitation.\n\nPlease address questions to maximum extent possible. Company capability statements are not desired responses and please do not include capability statements.\n\nAll submissions must be sent via email. Telephone calls or paper submissions will not be accepted.\n\nThe subject line for all submittals must be CLMRS SCM-ERP [Company Name]\n\nResponses must be submitted no later than \n3:00 pm CT on October 31, 2025\n\u00a0to the following email: Stephanie.R.Riddle@faa.gov .\n\nNO PHONE CALLS PLEASE.\u00a0 \u00a0ALL QUESTIONS MUST BE SUBMITTED IN WRITING VIA EMAIL TO THE CONTRACTING OFFICER.\n\nResponses will not be returned. The FAA is generally not seeking proprietary material.\u00a0 If the respondent feels there is a benefit to providing certain proprietary material, the respondent must appropriately mark any proprietary or confidential information contained in the market survey/RFI submissions.\u00a0\n\nThe FAA is not seeking marketing material;\n\nAny and all material submitted \u2013 whether proprietary or not \u2013 may be used to develop FAA\u2019s acquisition strategy. If respondents do not want specific information used in this manner, then such information should not be submitted;\n\nProviding a response to this Market Survey/RFI neither qualifies respondents for, nor excludes respondents from, responding to a resulting SIR, if any.\n\nThe FAA, at its sole discretion, may contact one, some, all, or none of the respondents to the RFI to ask for additional information. This may include, but is not limited to, demonstrations of previously developed tools that companies choose to describe in their responses.",
+        "published_date": "2025-11-04",
+        "response_date": "2025-11-05",
+        "set_aside": "",
+        "naics": "541512",
+        "psc": "DA01",
+        "place_of_performance": "{'code': '55000', 'name': 'Oklahoma City'}, {'code': 'OK', 'name': 'Oklahoma'}, 73169, {'code': 'USA', 'name': 'UNITED STATES'}",
+        "contact_information": "Stephanie Riddle | stephanie.r.riddle@faa.gov | 4059544166; primary; stephanie.r.riddle@faa.gov; 4059544166; Stephanie Riddle",
+        "department": "TRANSPORTATION, DEPARTMENT OF",
+        "sub_tier": "FEDERAL AVIATION ADMINISTRATION",
+        "office": "6973GH FRANCHISE ACQUISITION SVCS"
+      },
+      "attachments": [
+        {
+          "name": "Questions and Answers-RFI 11.04.25.xlsx",
+          "url": "",
+          "file_type": ".xlsx",
+          "size": "21633",
+          "attachment_id": "906b623e7bab434db8ddb7da27bd7af4",
+          "resource_id": "bb69a85144794afca44d4d6ccf94fc48",
+          "downloaded": true,
+          "local_path": "attachments/f996796de3364c118073ba8662ca1efa/Questions and Answers-RFI 11.04.25.xlsx"
+        },
+        {
+          "name": "Questions and Answers-RFI 10.23.25.xlsx",
+          "url": "",
+          "file_type": ".xlsx",
+          "size": "19638",
+          "attachment_id": "e228487dd1ff47fbb16e25ee85550a02",
+          "resource_id": "45a342b9e9b74eecbdbba5e57a9fdb89",
+          "downloaded": true,
+          "local_path": "attachments/f996796de3364c118073ba8662ca1efa/Questions and Answers-RFI 10.23.25.xlsx"
+        },
+        {
+          "name": "Questions and Answers-RFI.xlsx",
+          "url": "",
+          "file_type": ".xlsx",
+          "size": "17617",
+          "attachment_id": "9711267e17f8479095fdb14fa01a4a08",
+          "resource_id": "6e8eac11bb5845a8b13b411eb968d20c",
+          "downloaded": true,
+          "local_path": "attachments/f996796de3364c118073ba8662ca1efa/Questions and Answers-RFI.xlsx"
+        },
+        {
+          "name": "PWS -- CLMRS SCM-ERP Services Acqusition 2025 -- DRAFT.pdf",
+          "url": "",
+          "file_type": ".pdf",
+          "size": "392948",
+          "attachment_id": "c5470aca94434659be05e3f67e66dccb",
+          "resource_id": "3fbd9c0ee3f1434997f85118c9a15b42",
+          "downloaded": true,
+          "local_path": "attachments/f996796de3364c118073ba8662ca1efa/PWS -- CLMRS SCM-ERP Services Acqusition 2025 -- DRAFT.pdf"
+        }
+      ]
+    },
+    {
+      "sam_url": "https://sam.gov/workspace/contract/opp/be5b5e71c7484b44b862b27f955baa47/view",
+      "opportunity_id": "be5b5e71c7484b44b862b27f955baa47",
+      "status": "success",
+      "errors": [],
+      "metadata": {
+        "sam-url": "https://sam.gov/workspace/contract/opp/be5b5e71c7484b44b862b27f955baa47/view",
+        "opportunity_id": "be5b5e71c7484b44b862b27f955baa47",
+        "title": "Chena Equipment Mechanic Services",
+        "description": "4NOV2025 ***UPDATE*** QandA posted in attachments. Solicitation due date extended to 10 November 2025 at 10:00 AM Alaska Standard Time.\u00a0\n\n***UPDATE*** - A site visit is scheduled for Monday, November 3, 2025, from 10:00 AM to 11:00 AM Alaska Standard Time. If you plan to attend, please coordinate with Mr. Jeremy Allen at Jeremy.M.Allen@usace.army.mil or by phone at 907-250-9708. Location: 3800 Laurance Road, North Pole, Alaska 99705.\n\nThe Chena River Lakes Flood Control Project Office owns equipment that requires annual/regular servicing, occasional repairs and troubleshooting. The equipment is located at the Project Office, 3800 Laurance Road, North Pole, Alaska, approximately 18 miles east of Fairbanks, Alaska. The contractor shall provide all supervision, personnel, equipment, tools, materials, transportation, and other items necessary to perform equipment mechanic services at the Chena River Lakes Flood Control Project.",
+        "published_date": "2025-11-04",
+        "response_date": "2025-11-10",
+        "set_aside": "",
+        "naics": "811310",
+        "psc": "J038",
+        "place_of_performance": "{'code': '55910', 'name': 'North Pole'}, {'code': 'AK', 'name': 'Alaska'}, 99705, {'code': 'USA', 'name': 'UNITED STATES'}",
+        "contact_information": "Travis Tofi | travis.tofi@usace.army.mil | 9077532714; primary; travis.tofi@usace.army.mil; 9077532714; Travis Tofi",
+        "department": "DEPT OF DEFENSE",
+        "sub_tier": "DEPT OF THE ARMY",
+        "office": "W2SN ENDIST ALASKA"
+      },
+      "attachments": [
+        {
+          "name": "QandA_W911KB26QA001.pdf",
+          "url": "",
+          "file_type": ".pdf",
+          "size": "273832",
+          "attachment_id": "c4171d1d90f74c6aaa21b6bb25e07524",
+          "resource_id": "1f251cbe3d2f40a686e35188c4240e01",
+          "downloaded": true,
+          "local_path": "attachments/be5b5e71c7484b44b862b27f955baa47/QandA_W911KB26QA001.pdf"
+        },
+        {
+          "name": "Solicitation - W911KB26QA001.pdf",
+          "url": "",
+          "file_type": ".pdf",
+          "size": "8368211",
+          "attachment_id": "acba276d1a464828b1a717abc97b0cc0",
+          "resource_id": "d8630191d696453db0e4fdc3b2aa8159",
+          "downloaded": true,
+          "local_path": "attachments/be5b5e71c7484b44b862b27f955baa47/Solicitation - W911KB26QA001.pdf"
+        }
+      ]
+    }
+  ]
+}

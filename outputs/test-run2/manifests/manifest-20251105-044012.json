@@ -1,0 +1,43 @@
+{
+  "generated_at": "2025-11-05T04:40:12.890135Z",
+  "input_csv": "/Users/matt/Desktop/govbeacon-prompts/input.csv",
+  "output_dir": "/Users/matt/Desktop/govbeacon-prompts/outputs/test-run2",
+  "metadata_csv": "/Users/matt/Desktop/govbeacon-prompts/outputs/test-run2/metadata/sam-metadata.csv",
+  "attachments_dir": "/Users/matt/Desktop/govbeacon-prompts/outputs/test-run2/attachments",
+  "opportunities": [
+    {
+      "sam_url": "https://sam.gov/workspace/contract/opp/0202c6a52eba42dc8ce29e9958c2a2b1/view",
+      "opportunity_id": "0202c6a52eba42dc8ce29e9958c2a2b1",
+      "status": "success",
+      "errors": [],
+      "metadata": {
+        "sam-url": "https://sam.gov/workspace/contract/opp/0202c6a52eba42dc8ce29e9958c2a2b1/view",
+        "opportunity_id": "0202c6a52eba42dc8ce29e9958c2a2b1",
+        "title": "Customer Care Prototyping  - Commercial Solution Opening (Notice of Availability)",
+        "description": "Commercial Solution Opening\n\nCustomer Care Prototyping\n\nHT0038-25-S-C002\n\ngabriela.y.hurte.civ@health.mil\n\nNovember 4, 2025\n\n1. Agency Name\u00a0 \n\nDefense Health Agency (DHA)\n\n2. Issuing Acquisition Office\n\nDefense Health Agency, Defense Healthcare Management Systems - Contracting Division (DHMS-CD) in support of the Program Executive Office (PEO) \u2013 Defense Healthcare Management Systems (DHMS)\n\n3. Funding Opportunity Title\n\nCustomer Care Prototyping 2025-2026\n\n4. \nReserved\n\n5. Announcement Type\n\nNotice of Availability (NoA), Commercial Solutions Opening (CSO) IAW 10 U.S.C. \u00a7 4022. PEO DHMS is interested in awarding other transaction agreements under the authority of 10 U.S.C. \u00a7 4022 to carry out prototype projects that are, among other things, directly relevant to enhancing the mission effectiveness of personnel of the Department of Defense, in particular for Customer Care activities outlined in this NoA. A prototype project includes, but is not limited to, a project that addresses:\n\n(A) a proof of concept, model, or process, including a business process;\n\n(B) reverse engineering to address obsolescence;\n\n(C) a pilot or novel application of commercial technologies for defense purposes;\n\n(D) agile development activity;\n\n(E) the creation, design, development, or demonstration of operational utility; or\n\n(F) any combination of subparagraphs (A) through (E).M\n\nAn Agreement awarded under the authority of 10 U.S.C. \u00a7 4022 and is not subject to the Competition in Contracting Act, the Federal Acquisition Regulation, or the Defense Federal Acquisition Regulation Supplement. Any successful prototype project (or portion thereof) awarded under this CSO may be selected for a follow-on production agreement or contract pursuant to 10 U.S.C. \u00a7 4022(f).\n\nThe Government reserves the right to revise this NOA to include other types of CSOs, such as DFARS 212.7004 in the future. Applicable instructions to the relevant authority will be added, if required.\n\nSee attachments for additional information relating to this CSO HT0038-25-S-C002.\n\nHT0038-25-S-C002 - Notice of Availability - Customer Care_04NOV25",
+        "published_date": "2025-11-04",
+        "response_date": "2026-11-04",
+        "set_aside": "",
+        "naics": "541512",
+        "psc": "DD01",
+        "place_of_performance": "",
+        "contact_information": "Gabriela Hurte | gabriela.y.hurte.civ@health.mil; primary; gabriela.y.hurte.civ@health.mil; Gabriela Hurte; Sonya Edom | sonya.m.edom.civ@health.mil; secondary; sonya.m.edom.civ@health.mil; Sonya Edom",
+        "department": "DEPT OF DEFENSE",
+        "sub_tier": "DEFENSE HEALTH AGENCY (DHA)",
+        "office": "DEFENSE HEALTH AGENCY"
+      },
+      "attachments": [
+        {
+          "name": "HT0038-25-S-C002 - Notice of Availability - Customer Care_ 04NOV25.docx",
+          "url": "",
+          "file_type": ".docx",
+          "size": "393916",
+          "attachment_id": "8485a58e96c04a718abfaf7adaba7d3f",
+          "resource_id": "c2fd5a28825d4f238e4d5b5b7920cd2e",
+          "downloaded": true,
+          "local_path": "attachments/0202c6a52eba42dc8ce29e9958c2a2b1/HT0038-25-S-C002 - Notice of Availability - Customer Care_ 04NOV25.docx"
+        }
+      ]
+    }
+  ]
+}

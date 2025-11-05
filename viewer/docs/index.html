@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GovBeacon Document Summaries</title>
+    <link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div>
+                <h1>GovBeacon Document Summaries</h1>
+                <p class="subtitle">Upload a doc-summaries export to review attachment-level narratives by opportunity.</p>
+            </div>
+            <div class="controls">
+                <div class="file-input">
+                    <label for="docCsv">Load doc-summaries CSV</label>
+                    <input type="file" id="docCsv" accept=".csv" />
+                </div>
+                <div class="attachments-root">
+                    <label for="rootInput">Attachments root (optional)</label>
+                    <input type="text" id="rootInput" placeholder="/absolute/path/to/outputs/attachments" />
+                </div>
+                <div class="opportunity-selector" id="opportunitySelector" style="display: none;">
+                    <label for="opportunitySelect">Opportunity</label>
+                    <select id="opportunitySelect"></select>
+                </div>
+                <div class="search" id="searchContainer" style="display: none;">
+                    <label for="searchInput">Search documents</label>
+                    <input type="search" id="searchInput" placeholder="Filter by keyword" />
+                </div>
+            </div>
+        </header>
+
+        <main class="documents" id="documents" style="display: none;"></main>
+        <footer class="status" id="statusBar"></footer>
+        <div class="error" id="errorMessage" role="alert" style="display: none;"></div>
+    </div>
+
+    <script src="app.js?v=3"></script>
+</body>
+</html>
+

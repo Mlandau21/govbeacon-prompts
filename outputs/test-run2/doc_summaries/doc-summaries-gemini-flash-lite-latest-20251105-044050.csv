@@ -1,0 +1,30 @@
+sam-url,opportunity_id,filename,filetype,local_path,detected_doc_type,summary,model,run_id
+https://sam.gov/workspace/contract/opp/0202c6a52eba42dc8ce29e9958c2a2b1/view,0202c6a52eba42dc8ce29e9958c2a2b1,HT0038-25-S-C002 - Notice of Availability - Customer Care_ 04NOV25.docx,docx,0202c6a52eba42dc8ce29e9958c2a2b1/HT0038-25-S-C002 - Notice of Availability - Customer Care_ 04NOV25.docx,Solicitation / RFP / RFQ,"Detected Document Type: Solicitation / RFP / RFQ
+
+**Purpose & Scope:**
+This document is a Notice of Availability (NoA) for a Commercial Solutions Opening (CSO) under the authority of 10 U.S.C. § 4022, seeking prototype projects related to enhancing Customer Care activities for the Defense Health Agency (DHA) and the Military Health System (MHS). The goal is to rapidly develop and procure solutions to support the Customer Care Foundational Platform, which is currently not designed or established. Multiple awards are anticipated.
+
+**Key Requirements:**
+The core objective is to address the problem that current Customer Care capabilities often limit technology adoption velocity, despite high spending on change management. The Government hypothesizes that current high-touch practices are ineffective and expensive. Solutions must address fundamental prototype questions related to industry partners, customer definition, instrumentation, reducing reliance on legacy ITSM (e.g., tickets), and maximizing self-service.
+
+*   **Areas of Interest Include:** Proactive, multi-discipline service management; embedding customer experience via design principles; insight-driven approaches; emerging neural technologies (ML, GenAI); Customer Care ""Operating Systems""; and maximizing User Self-Service.
+*   **Mandatory Submission Criteria (for merit):** Solutions must demonstrate **Advancement** (improvement over status quo), **Learning** (addressing a hypothesis/question objectively), **Adjusting** (mechanisms for real-time adjustment without new funding), and **Solutions** (specific, measurable outcomes, not just levels of effort).
+
+**Contract Details:**
+*   **Authority:** Other Transaction Agreements (OTAs) under 10 U.S.C. § 4022 for prototype projects.
+*   **Follow-on Potential:** Successful prototype projects may be selected for a follow-on production agreement or contract pursuant to 10 U.S.C. § 4022(f).
+*   **Pricing:** Flexible pricing arrangements appropriate for the proposed solution will be utilized; payment for ""insights and successes"" rather than just labor is suggested as a potential model.
+
+**Eligibility & Set-Aside:**
+*   This CSO satisfies the requirement for competitive procedures under 10 U.S.C. § 4022(b)(2).
+*   Unless specified otherwise in a Season Notice, there are no restrictions on who may submit a response.
+
+**Submission & Evaluation:**
+*   **Process:** The process is structured around ""Seasons,"" which group submissions for specific challenges. Solutions will be requested during individual seasons via **Season Notices**.
+*   **Evaluation:** Merit will be the sole consideration. The process involves four phases: Prospecting, Assessing, Kickstarting, and Episodes (award).
+*   **Cost:** The Government will not pay for costs associated with preparing materials to determine merit or awardability.
+*   **Teaming:** The Government may share non-trade-secret information about submissions with other prospective partners to facilitate team solutions.
+
+**Important Dates:**
+*   **Response Dates:** Solutions will be requested during individual seasons, and each Season Notice will establish specific deadlines. Deadlines are expected to be significantly shorter than normal.
+*   **Contact:** gabriela.y.hurte.civ@health.mil",gemini-flash-lite-latest,20251105-044048

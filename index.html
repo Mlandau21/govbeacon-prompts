@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Comparison Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>CSV Comparison Viewer</h1>
+            <div class="header-controls">
+                <div class="row-selector-dropdown" id="rowSelectorDropdown" style="display: none;">
+                    <label for="rowSelect">Select Row:</label>
+                    <select id="rowSelect" class="row-dropdown">
+                        <option value="">Choose a row...</option>
+                    </select>
+                </div>
+                <div class="upload-section">
+                    <input type="file" id="csvFile" accept=".csv" />
+                    <label for="csvFile" class="upload-button">Choose CSV File</label>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content" id="mainContent" style="display: none;">
+            <div class="comparison-view">
+                <div class="column" data-column="sam">
+                    <div class="column-header">
+                        <h3>SAM Description</h3>
+                        <a href="#" class="source-url" id="samUrl" target="_blank">View Source</a>
+                    </div>
+                    <div class="column-content" id="samContent"></div>
+                </div>
+
+                <div class="column" data-column="sweetspot">
+                    <div class="column-header">
+                        <h3>Sweetspot Summary</h3>
+                        <a href="#" class="source-url" id="sweetspotUrl" target="_blank">View Source</a>
+                    </div>
+                    <div class="column-content" id="sweetspotContent"></div>
+                </div>
+
+                <div class="column" data-column="highergov">
+                    <div class="column-header">
+                        <h3>HigherGov Summary</h3>
+                        <a href="#" class="source-url" id="highergovUrl" target="_blank">View Source</a>
+                    </div>
+                    <div class="column-content" id="highergovContent"></div>
+                </div>
+            </div>
+        </main>
+
+        <div class="error-message" id="errorMessage" style="display: none;"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
